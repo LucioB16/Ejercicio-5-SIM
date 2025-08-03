@@ -1,9 +1,0 @@
-<Window x:Class="SimulacionCmi.VentanaGraficos"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Gráficos" Height="450" Width="800">
-    <StackPanel Margin="10">
-        <TextBlock Text="Gráfico de P(Def. sí) (placeholder)" Margin="0,0,0,10"/>
-        <TextBlock Text="Gráfico de ventas acumuladas (placeholder)"/>
-    </StackPanel>
-</Window>
