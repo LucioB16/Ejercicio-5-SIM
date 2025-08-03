@@ -1,0 +1,10 @@
+<Window x:Class="SimulacionCmi.VentanaEnunciado"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enunciado" Height="450" Width="800" WindowStartupLocation="CenterOwner">
+  <ScrollViewer Margin="10">
+    <TextBlock TextWrapping="Wrap">
+CMI Corporation llevó a cabo una prueba, diseñada para evaluar la efectividad de un nuevo anuncio por televisión para uno de sus productos domésticos. El anuncio se mostró en un mercado de prueba durante dos semanas. En el estudio de seguimiento se contactó telefónicamente con una selección aleatoria de personas y se les hizo una serie de preguntas sobre la posible compra del producto.
+    </TextBlock>
+  </ScrollViewer>
+</Window>

@@ -1,0 +1,25 @@
+<Window x:Class="SimulacionCmi.VentanaResultados"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Resultados" Height="450" Width="800" WindowStartupLocation="CenterOwner">
+  <Grid Margin="10">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <TextBlock x:Name="lblResumen" Grid.Row="0" Margin="0,0,0,10"/>
+    <DataGrid x:Name="dgResultados" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Visita" Binding="{Binding Visita}" Width="60"/>
+        <DataGridTextColumn Header="Recuerda" Binding="{Binding Recuerda}" Width="80"/>
+        <DataGridTextColumn Header="Respuesta" Binding="{Binding Respuesta}" Width="120"/>
+        <DataGridTextColumn Header="Compra" Binding="{Binding Compra}" Width="80"/>
+        <DataGridTextColumn Header="Acum Sí" Binding="{Binding AcumSi}" Width="80"/>
+        <DataGridTextColumn Header="Acum No" Binding="{Binding AcumNo}" Width="80"/>
+        <DataGridTextColumn Header="Acum Dudoso" Binding="{Binding AcumDudoso}" Width="100"/>
+        <DataGridTextColumn Header="P acum Sí" Binding="{Binding ProbAcumSi, StringFormat=F4}" Width="80"/>
+        <DataGridTextColumn Header="Ventas" Binding="{Binding VentasAcum}" Width="80"/>
+      </DataGrid.Columns>
+    </DataGrid>
+  </Grid>
+</Window>
