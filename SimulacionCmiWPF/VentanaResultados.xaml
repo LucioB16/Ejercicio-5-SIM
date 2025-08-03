@@ -19,7 +19,6 @@
     <DataGrid Grid.Row="1" ItemsSource="{Binding Vectores}" AutoGenerateColumns="False" IsReadOnly="True">
       <DataGrid.Columns>
         <DataGridTextColumn Header="Visita" Binding="{Binding Visita}" Width="60"/>
-        <DataGridTextColumn Header="Rnd Visita" Binding="{Binding RndVisita, StringFormat=F4}" Width="80"/>
         <DataGridTextColumn Header="Rnd Recuerda" Binding="{Binding RndRecuerda, StringFormat=F4}" Width="90"/>
         <DataGridTextColumn Header="Recuerda" Binding="{Binding Recuerda}" Width="80"/>
         <DataGridTextColumn Header="Rnd Respuesta" Binding="{Binding RndRespuesta, StringFormat=F4}" Width="90"/>

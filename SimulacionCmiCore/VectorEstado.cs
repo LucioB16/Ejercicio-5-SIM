@@ -7,8 +7,6 @@ public class VectorEstado
 {
     /// <summary>Índice de la visita.</summary>
     public int Visita { get; set; }
-    /// <summary>Número aleatorio asociado a la visita.</summary>
-    public double RndVisita { get; set; }
     /// <summary>Número aleatorio para decidir si recuerda el anuncio.</summary>
     public double RndRecuerda { get; set; }
     /// <summary>Indica si el individuo recuerda el mensaje.</summary>

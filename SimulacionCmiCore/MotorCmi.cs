@@ -46,7 +46,6 @@ public class MotorCmi
         for (int i = 1; i <= visitas; i++)
         {
             // Aleatorios
-            double rndVisita = rng.NextDouble();
             double rndRecuerda = rng.NextDouble();
             bool recuerda = rndRecuerda < _pRecuerda;
             double rndRespuesta = rng.NextDouble();
@@ -80,7 +79,6 @@ public class MotorCmi
             actual = new VectorEstado
             {
                 Visita = i,
-                RndVisita = rndVisita,
                 RndRecuerda = rndRecuerda,
                 Recuerda = recuerda,
                 RndRespuesta = rndRespuesta,
