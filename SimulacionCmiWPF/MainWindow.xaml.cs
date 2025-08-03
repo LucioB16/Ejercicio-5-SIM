@@ -1,7 +1,8 @@
 using System;
 using System.Windows;
+using SimulacionCmiCore;
 
-namespace SimulacionCmi;
+namespace SimulacionCmiWPF;
 
 /// <summary>
 /// Ventana principal minimal para ejecutar la simulación.
@@ -20,8 +21,8 @@ public partial class MainWindow : Window
         if (int.TryParse(txtSemilla.Text, out int s)) semilla = s;
 
         var motor = new MotorCmi(0.35,
-            new[] { 0.55, 0.15, 0.30 },
-            new[] { 0.70, 0.25, 0.05 },
+            [0.55, 0.15, 0.30],
+            [0.70, 0.25, 0.05],
             0.60, 10000);
         var res = motor.Simular(visitas, 1, visitas, semilla);
         lblResultado.Text = $"P(Def. Sí) ≈ {res.ProbabilidadSi:F4} | Ventas: {res.VentasTotales}";

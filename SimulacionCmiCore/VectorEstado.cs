@@ -1,4 +1,4 @@
-namespace SimulacionCmi;
+namespace SimulacionCmiCore;
 
 /// <summary>
 /// Representa una visita simulada para el problema de CMI.

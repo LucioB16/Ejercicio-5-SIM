@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SimulacionCmi;
+namespace SimulacionCmiCore;
 
 /// <summary>
 /// Motor que ejecuta la simulación para el caso de la empresa CMI.

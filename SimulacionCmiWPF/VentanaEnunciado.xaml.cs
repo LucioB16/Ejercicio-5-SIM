@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace SimulacionCmi;
+namespace SimulacionCmiWPF;
 
 /// <summary>
 /// Ventana que muestra el enunciado del problema.

@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.Windows;
+using SimulacionCmiCore;
 
-namespace SimulacionCmi;
+namespace SimulacionCmiWPF;
 
 /// <summary>
 /// Muestra la tabla de vectores de estado.

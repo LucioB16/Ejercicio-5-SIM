@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace SimulacionCmi;
+namespace SimulacionCmiWPF;
 
 /// <summary>
 /// Lógica de interacción para la aplicación.

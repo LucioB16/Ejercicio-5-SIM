@@ -1,4 +1,4 @@
-using SimulacionCmi;
+using SimulacionCmiCore;
 using Xunit;
 
 namespace SimulacionCmiCore.Tests;
