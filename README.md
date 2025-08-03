@@ -1,6 +1,8 @@
 # Simulación CMI
 
 Este proyecto contiene una simulación del problema de la empresa **CMI Corporation** usando C# 12 y .NET 8.
+La aplicación WPF permite configurar las probabilidades, ejecutar la simulación y
+visualizar tablas y gráficos con los resultados.
 
 ## Enunciado
 
@@ -34,11 +36,11 @@ Los objetivos del estudio son:
 ## Compilación y pruebas
 
 ```bash
-# compilar la biblioteca
+# compilar la biblioteca principal
 DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet build SimulacionCmiCore/SimulacionCmiCore.csproj
 
-# ejecutar pruebas
-DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet test SimulacionCmi.sln
+# ejecutar las pruebas unitarias
+DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet test SimulacionCmiCore.Tests/SimulacionCmiCore.Tests.csproj
 ```
 
 ## Licencia
