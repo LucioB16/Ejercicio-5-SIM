@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace SimulacionCmiCore;
@@ -16,7 +17,8 @@ public class MotorCmi
     /// <summary>
     /// Crea una instancia del motor.
     /// </summary>
-    public MotorCmi(double pRecuerda, double[] condRecuerda, double[] condNoRecuerda, double probCompraDudoso, int ventasObjetivo)
+    public MotorCmi(double pRecuerda, double[] condRecuerda, double[] condNoRecuerda,
+        double probCompraDudoso, int ventasObjetivo)
     {
         _pRecuerda = pRecuerda;
         _condRecuerda = condRecuerda;
@@ -26,81 +28,86 @@ public class MotorCmi
     }
 
     /// <summary>
-    /// Ejecuta la simulación para una cantidad dada de visitas.
+    /// Ejecuta la simulación.
     /// </summary>
-    /// <param name="visitas">Visitas a simular.</param>
-    /// <param name="desde">Desde qué visita se almacenan vectores.</param>
-    /// <param name="hasta">Hasta qué visita se almacenan vectores.</param>
-    /// <param name="semilla">Semilla opcional para el generador aleatorio.</param>
-    public (List<VectorEstado> Vectores, double ProbabilidadSi, int VentasTotales, int? VisitaObjetivo) Simular(int visitas, int desde, int hasta, int? semilla = null)
+    /// <param name="visitas">Cantidad total de visitas a simular.</param>
+    /// <param name="desde">Desde qué visita se copian vectores para la tabla.</param>
+    /// <param name="hasta">Hasta qué visita se copian vectores para la tabla.</param>
+    /// <param name="semilla">Semilla opcional del generador aleatorio.</param>
+    public (List<VectorEstado> Vectores, VectorEstado UltimoVector, double ProbabilidadSi,
+        int VentasTotales, int? VisitaObjetivo) Simular(int visitas, int desde, int hasta, int? semilla = null)
     {
         var rng = semilla.HasValue ? new Random(semilla.Value) : new Random();
         var resultados = new List<VectorEstado>();
-        int acumSi = 0, acumNo = 0, acumDudoso = 0, ventas = 0;
+        VectorEstado? anterior = null;
+        VectorEstado? actual = null;
         int? visitaObjetivo = null;
 
         for (int i = 1; i <= visitas; i++)
         {
-            double r1 = rng.NextDouble();
-            bool recuerda = r1 < _pRecuerda;
-            double r2 = rng.NextDouble();
+            // Aleatorios
+            double rndVisita = rng.NextDouble();
+            double rndRecuerda = rng.NextDouble();
+            bool recuerda = rndRecuerda < _pRecuerda;
+            double rndRespuesta = rng.NextDouble();
             string respuesta;
             double[] dist = recuerda ? _condRecuerda : _condNoRecuerda;
-            if (r2 < dist[0])
+            if (rndRespuesta < dist[0])
                 respuesta = "Definitivamente no";
-            else if (r2 < dist[0] + dist[1])
+            else if (rndRespuesta < dist[0] + dist[1])
                 respuesta = "Dudoso";
             else
                 respuesta = "Definitivamente sí";
 
             bool compra = false;
-            double? r3 = null;
+            double? rndCompra = null;
             if (respuesta == "Definitivamente sí")
             {
                 compra = true;
             }
             else if (respuesta == "Dudoso")
             {
-                r3 = rng.NextDouble();
-                compra = r3 < _probCompraDudoso;
+                rndCompra = rng.NextDouble();
+                compra = rndCompra < _probCompraDudoso;
             }
 
-            if (respuesta == "Definitivamente sí")
-                acumSi++;
-            else if (respuesta == "Definitivamente no")
-                acumNo++;
-            else
-                acumDudoso++;
+            // Acumuladores utilizando el vector anterior
+            int acumSi = (anterior?.AcumSi ?? 0) + (respuesta == "Definitivamente sí" ? 1 : 0);
+            int acumNo = (anterior?.AcumNo ?? 0) + (respuesta == "Definitivamente no" ? 1 : 0);
+            int acumDudoso = (anterior?.AcumDudoso ?? 0) + (respuesta == "Dudoso" ? 1 : 0);
+            int ventas = (anterior?.VentasAcum ?? 0) + (compra ? 1 : 0);
 
-            if (compra)
-                ventas++;
-
-            double probAcumSi = (double)acumSi / i;
-            var vector = new VectorEstado
+            actual = new VectorEstado
             {
                 Visita = i,
-                RndRecuerda = r1,
+                RndVisita = rndVisita,
+                RndRecuerda = rndRecuerda,
                 Recuerda = recuerda,
-                RndRespuesta = r2,
+                RndRespuesta = rndRespuesta,
                 Respuesta = respuesta,
-                RndCompraDudoso = r3,
+                RndCompra = rndCompra,
                 Compra = compra,
                 AcumSi = acumSi,
                 AcumNo = acumNo,
                 AcumDudoso = acumDudoso,
-                ProbAcumSi = probAcumSi,
+                ProbAcumSi = (double)acumSi / i,
                 VentasAcum = ventas
             };
 
             if (i >= desde && i <= hasta)
-                resultados.Add(vector);
+                resultados.Add(actual.Clonar());
 
             if (visitaObjetivo is null && ventas >= _ventasObjetivo)
                 visitaObjetivo = i;
+
+            anterior = actual;
         }
 
-        double probSi = (double)acumSi / visitas;
-        return (resultados, probSi, ventas, visitaObjetivo);
+        // al terminar, 'actual' contiene el último vector
+        VectorEstado ultimo = actual!;
+        double probSi = (double)ultimo.AcumSi / ultimo.Visita;
+        int ventasTotales = ultimo.VentasAcum;
+        return (resultados, ultimo, probSi, ventasTotales, visitaObjetivo);
     }
 
     /// <summary>

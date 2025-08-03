@@ -1,8 +1,6 @@
-using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using ScottPlot;
-using SimulacionCmiCore;
 
 namespace SimulacionCmiWPF;
 
@@ -11,15 +9,24 @@ namespace SimulacionCmiWPF;
 /// </summary>
 public partial class VentanaGraficos : Window
 {
-    public VentanaGraficos(List<VectorEstado> vectores)
+    public VentanaGraficos()
     {
         InitializeComponent();
-        double[] xs = vectores.Select(v => (double)v.Visita).ToArray();
-        double[] prob = vectores.Select(v => v.ProbAcumSi).ToArray();
-        double[] ventas = vectores.Select(v => (double)v.VentasAcum).ToArray();
-        plot.Plot.Add.Scatter(xs, prob); // P(Def. Sí)
-        plot.Plot.Add.Scatter(xs, ventas); // Ventas
-        plot.Plot.Title("Evolución");
-        plot.Refresh();
+        Loaded += VentanaGraficos_Loaded;
+    }
+
+    private void VentanaGraficos_Loaded(object sender, RoutedEventArgs e)
+    {
+        if (DataContext is not GraficosViewModel vm)
+            return;
+
+        double[] xs = Enumerable.Range(1, vm.VentasAcumuladas.Length).Select(i => (double)i).ToArray();
+        plotVentas.Plot.Add.Scatter(xs, vm.VentasAcumuladas);
+        plotVentas.Plot.Title("Ventas acumuladas");
+        plotVentas.Refresh();
+
+        plotProbabilidad.Plot.Add.Scatter(xs, vm.ProbabilidadSi);
+        plotProbabilidad.Plot.Title("P(Def. Sí)");
+        plotProbabilidad.Refresh();
     }
 }

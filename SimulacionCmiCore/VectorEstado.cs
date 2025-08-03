@@ -7,6 +7,8 @@ public class VectorEstado
 {
     /// <summary>Índice de la visita.</summary>
     public int Visita { get; set; }
+    /// <summary>Número aleatorio asociado a la visita.</summary>
+    public double RndVisita { get; set; }
     /// <summary>Número aleatorio para decidir si recuerda el anuncio.</summary>
     public double RndRecuerda { get; set; }
     /// <summary>Indica si el individuo recuerda el mensaje.</summary>
@@ -15,8 +17,8 @@ public class VectorEstado
     public double RndRespuesta { get; set; }
     /// <summary>Respuesta dada por el individuo.</summary>
     public string Respuesta { get; set; } = string.Empty;
-    /// <summary>Número aleatorio usado si la respuesta fue "dudoso".</summary>
-    public double? RndCompraDudoso { get; set; }
+    /// <summary>Número aleatorio usado para decidir la compra si la respuesta fue "dudoso".</summary>
+    public double? RndCompra { get; set; }
     /// <summary>Indica si la visita termina en compra.</summary>
     public bool Compra { get; set; }
     /// <summary>Cantidad acumulada de respuestas "definitivamente sí".</summary>
@@ -29,4 +31,9 @@ public class VectorEstado
     public double ProbAcumSi { get; set; }
     /// <summary>Ventas acumuladas.</summary>
     public int VentasAcum { get; set; }
+
+    /// <summary>
+    /// Crea una copia superficial del vector.
+    /// </summary>
+    public VectorEstado Clonar() => (VectorEstado)MemberwiseClone();
 }
