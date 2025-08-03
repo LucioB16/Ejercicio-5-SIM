@@ -16,6 +16,7 @@ public class MainViewModel : INotifyPropertyChanged
     private int _hastaVisita = 100;
     private double _probRecuerda = 0.35;
     private double _probCompraDudoso = 0.60;
+    private int _ventasObjetivo = 10000;
 
     public int Visitas
     {
@@ -47,6 +48,13 @@ public class MainViewModel : INotifyPropertyChanged
         set { _probCompraDudoso = value; OnPropertyChanged(nameof(ProbabilidadDudosoCompra)); }
     }
 
+    /// <summary>Cantidad de ventas a alcanzar.</summary>
+    public int VentasObjetivo
+    {
+        get => _ventasObjetivo;
+        set { _ventasObjetivo = value; OnPropertyChanged(nameof(VentasObjetivo)); }
+    }
+
     public ObservableCollection<ProbabilidadesFila> TablaRecuerda { get; } = new([
         new ProbabilidadesFila { No = 0.55, Dudoso = 0.15, Si = 0.30 }
     ]);
@@ -71,7 +79,7 @@ public class MainViewModel : INotifyPropertyChanged
             var motor = new MotorCmi(ProbabilidadRecuerda,
                 [TablaRecuerda[0].No, TablaRecuerda[0].Dudoso, TablaRecuerda[0].Si],
                 [TablaNoRecuerda[0].No, TablaNoRecuerda[0].Dudoso, TablaNoRecuerda[0].Si],
-                ProbabilidadDudosoCompra, 10000);
+                ProbabilidadDudosoCompra, VentasObjetivo);
             var res = motor.Simular(Visitas, DesdeVisita, HastaVisita);
             var vm = new ResultadosViewModel(res, motor.CalcularVisitasAnaliticas());
             var win = new VentanaResultados { DataContext = vm };

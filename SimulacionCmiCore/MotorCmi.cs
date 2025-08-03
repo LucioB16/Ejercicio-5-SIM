@@ -67,7 +67,7 @@ public class MotorCmi
             else if (respuesta == "Dudoso")
             {
                 rndCompra = rng.NextDouble();
-                compra = rndCompra < _probCompraDudoso;
+                compra = rndCompra >= 1 - _probCompraDudoso;
             }
 
             // Acumuladores utilizando el vector anterior
