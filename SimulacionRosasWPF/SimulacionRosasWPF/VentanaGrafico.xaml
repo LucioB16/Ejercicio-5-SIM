@@ -1,0 +1,12 @@
+<Window x:Class="SimulacionRosasWPF.VentanaGrafico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ScottPlot="clr-namespace:ScottPlot.WPF;assembly=ScottPlot.WPF"
+        Title="Gráfico de Ganancia Media"
+        Width="800" Height="500"
+        WindowStartupLocation="CenterOwner">
+    <Grid>
+        <!-- Control ScottPlot nativo para WPF -->
+        <ScottPlot:WpfPlot x:Name="WpfPlot1" Margin="10"/>
+    </Grid>
+</Window>

@@ -1,0 +1,5478 @@
+{
+  "cells": [
+    {
+      "row": 1,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Distribución Probabilidad Recuerdo",
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "B",
+      "colIndex": 2,
+      "value": "Probabilidad",
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "C",
+      "colIndex": 3,
+      "value": "Acumulada",
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "D",
+      "colIndex": 4,
+      "value": "Rand Min",
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "E",
+      "colIndex": 5,
+      "value": "Rand Max",
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "H",
+      "colIndex": 8,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "I",
+      "colIndex": 9,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "J",
+      "colIndex": 10,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "K",
+      "colIndex": 11,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "L",
+      "colIndex": 12,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "O",
+      "colIndex": 15,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "P",
+      "colIndex": 16,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "Q",
+      "colIndex": 17,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "R",
+      "colIndex": 18,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "S",
+      "colIndex": 19,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "T",
+      "colIndex": 20,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "U",
+      "colIndex": 21,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "V",
+      "colIndex": 22,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 1,
+      "column": "W",
+      "colIndex": 23,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "A",
+      "colIndex": 1,
+      "value": "¿Recuerda el mensaje?",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "B",
+      "colIndex": 2,
+      "value": "Probabilidad",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "C",
+      "colIndex": 3,
+      "value": "Acumulada",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "D",
+      "colIndex": 4,
+      "value": "Rand Min",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "E",
+      "colIndex": 5,
+      "value": "Rand Max",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "H",
+      "colIndex": 8,
+      "value": "Visita",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "I",
+      "colIndex": 9,
+      "value": "Rand Recuerdo",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "J",
+      "colIndex": 10,
+      "value": "¿Recuerda el mensaje?",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "K",
+      "colIndex": 11,
+      "value": "Rand Compra",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "L",
+      "colIndex": 12,
+      "value": "¿Compraría el producto?",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "M",
+      "colIndex": 13,
+      "value": "Rand Compra Dudoso",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "N",
+      "colIndex": 14,
+      "value": "¿Compraría el producto?",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "O",
+      "colIndex": 15,
+      "value": "Cant Si",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "P",
+      "colIndex": 16,
+      "value": "Cant No",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "Cant Dudoso",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "R",
+      "colIndex": 18,
+      "value": "Prob Si",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "S",
+      "colIndex": 19,
+      "value": "Prob No",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "T",
+      "colIndex": 20,
+      "value": "Prob Dudoso",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "U",
+      "colIndex": 21,
+      "value": "Cant Ventas",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "V",
+      "colIndex": 22,
+      "value": "Chequeo Probabilidad",
+      "formula": null
+    },
+    {
+      "row": 2,
+      "column": "W",
+      "colIndex": 23,
+      "value": "Chequeo Cant",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Si",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.35",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "C",
+      "colIndex": 3,
+      "value": "0.35",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.349",
+      "formula": "=C3-0.001"
+    },
+    {
+      "row": 3,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "H",
+      "colIndex": 8,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "I",
+      "colIndex": 9,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "J",
+      "colIndex": 10,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "K",
+      "colIndex": 11,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "L",
+      "colIndex": 12,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "O",
+      "colIndex": 15,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "P",
+      "colIndex": 16,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "R",
+      "colIndex": 18,
+      "value": null,
+      "formula": "=O3/(O3+P3+Q3)"
+    },
+    {
+      "row": 3,
+      "column": "S",
+      "colIndex": 19,
+      "value": null,
+      "formula": "=P3/(O3+P3+Q3)"
+    },
+    {
+      "row": 3,
+      "column": "T",
+      "colIndex": 20,
+      "value": null,
+      "formula": "=Q3/(O3+P3+Q3)"
+    },
+    {
+      "row": 3,
+      "column": "U",
+      "colIndex": 21,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 3,
+      "column": "V",
+      "colIndex": 22,
+      "value": null,
+      "formula": "=SUM(R3:T3)"
+    },
+    {
+      "row": 3,
+      "column": "W",
+      "colIndex": 23,
+      "value": null,
+      "formula": "=SUM(O3:Q3)"
+    },
+    {
+      "row": 4,
+      "column": "A",
+      "colIndex": 1,
+      "value": "No",
+      "formula": null
+    },
+    {
+      "row": 4,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.65",
+      "formula": null
+    },
+    {
+      "row": 4,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B4+C3"
+    },
+    {
+      "row": 4,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0.35",
+      "formula": "=C3"
+    },
+    {
+      "row": 4,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C4-0.001"
+    },
+    {
+      "row": 4,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 4,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 4,
+      "column": "H",
+      "colIndex": 8,
+      "value": "1",
+      "formula": "=H3+1"
+    },
+    {
+      "row": 4,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.016587399719999674",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 4,
+      "column": "J",
+      "colIndex": 10,
+      "value": "Si",
+      "formula": "=IF(I4<C3;A3;A4)"
+    },
+    {
+      "row": 4,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8574220032350925",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 4,
+      "column": "L",
+      "colIndex": 12,
+      "value": "Si",
+      "formula": "=IF(J4=\"Si\";IF(K4<$S$16;$A$16;IF(K4<$T$16;$A$17;$A$18));IF(K4<$S$22;$A$22;IF(K4<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 4,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L4=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 4,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L4=$A$18,IF(M4<$S$28,$A$28,IF(M4<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 4,
+      "column": "O",
+      "colIndex": 15,
+      "value": "1",
+      "formula": "=IF(L4=\"Si\";O3+1;O3)"
+    },
+    {
+      "row": 4,
+      "column": "P",
+      "colIndex": 16,
+      "value": "0",
+      "formula": "=IF(L4=\"No\";P3+1;P3)"
+    },
+    {
+      "row": 4,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L4=\"Dudoso\";Q3+1;Q3)"
+    },
+    {
+      "row": 4,
+      "column": "R",
+      "colIndex": 18,
+      "value": "1",
+      "formula": "=O4/(O4+P4+Q4)"
+    },
+    {
+      "row": 4,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0",
+      "formula": "=P4/(O4+P4+Q4)"
+    },
+    {
+      "row": 4,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q4/(O4+P4+Q4)"
+    },
+    {
+      "row": 4,
+      "column": "U",
+      "colIndex": 21,
+      "value": "1",
+      "formula": "=U3+IF(L4=\"Si\";1;0)"
+    },
+    {
+      "row": 4,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R4:T4)"
+    },
+    {
+      "row": 4,
+      "column": "W",
+      "colIndex": 23,
+      "value": "1",
+      "formula": "=SUM(O4:Q4)"
+    },
+    {
+      "row": 5,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 5,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 5,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 5,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 5,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 5,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 5,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 5,
+      "column": "H",
+      "colIndex": 8,
+      "value": "2",
+      "formula": "=H4+1"
+    },
+    {
+      "row": 5,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.8888507731661347",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 5,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I5<C3;A3;A4)"
+    },
+    {
+      "row": 5,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.5575064241796188",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 5,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J5=\"Si\";IF(K5<$S$16;$A$16;IF(K5<$T$16;$A$17;$A$18));IF(K5<$S$22;$A$22;IF(K5<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 5,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L5=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 5,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L5=$A$18,IF(M5<$S$28,$A$28,IF(M5<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 5,
+      "column": "O",
+      "colIndex": 15,
+      "value": "1",
+      "formula": "=IF(L5=\"Si\";O4+1;O4)"
+    },
+    {
+      "row": 5,
+      "column": "P",
+      "colIndex": 16,
+      "value": "1",
+      "formula": "=IF(L5=\"No\";P4+1;P4)"
+    },
+    {
+      "row": 5,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L5=\"Dudoso\";Q4+1;Q4)"
+    },
+    {
+      "row": 5,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.5",
+      "formula": "=O5/(O5+P5+Q5)"
+    },
+    {
+      "row": 5,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.5",
+      "formula": "=P5/(O5+P5+Q5)"
+    },
+    {
+      "row": 5,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q5/(O5+P5+Q5)"
+    },
+    {
+      "row": 5,
+      "column": "U",
+      "colIndex": 21,
+      "value": "1",
+      "formula": "=U4+IF(L5=\"Si\";1;0)"
+    },
+    {
+      "row": 5,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R5:T5)"
+    },
+    {
+      "row": 5,
+      "column": "W",
+      "colIndex": 23,
+      "value": "2",
+      "formula": "=SUM(O5:Q5)"
+    },
+    {
+      "row": 6,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Distribución Probabilidad Compra",
+      "formula": null
+    },
+    {
+      "row": 6,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 6,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 6,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 6,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 6,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 6,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 6,
+      "column": "H",
+      "colIndex": 8,
+      "value": "3",
+      "formula": "=H5+1"
+    },
+    {
+      "row": 6,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.533935331813721",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 6,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I6<C3;A3;A4)"
+    },
+    {
+      "row": 6,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.6070567182815879",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 6,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J6=\"Si\";IF(K6<$S$16;$A$16;IF(K6<$T$16;$A$17;$A$18));IF(K6<$S$22;$A$22;IF(K6<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 6,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L6=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 6,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L6=$A$18,IF(M6<$S$28,$A$28,IF(M6<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 6,
+      "column": "O",
+      "colIndex": 15,
+      "value": "1",
+      "formula": "=IF(L6=\"Si\";O5+1;O5)"
+    },
+    {
+      "row": 6,
+      "column": "P",
+      "colIndex": 16,
+      "value": "2",
+      "formula": "=IF(L6=\"No\";P5+1;P5)"
+    },
+    {
+      "row": 6,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L6=\"Dudoso\";Q5+1;Q5)"
+    },
+    {
+      "row": 6,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.3333333333333333",
+      "formula": "=O6/(O6+P6+Q6)"
+    },
+    {
+      "row": 6,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.6666666666666666",
+      "formula": "=P6/(O6+P6+Q6)"
+    },
+    {
+      "row": 6,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q6/(O6+P6+Q6)"
+    },
+    {
+      "row": 6,
+      "column": "U",
+      "colIndex": 21,
+      "value": "1",
+      "formula": "=U5+IF(L6=\"Si\";1;0)"
+    },
+    {
+      "row": 6,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R6:T6)"
+    },
+    {
+      "row": 6,
+      "column": "W",
+      "colIndex": 23,
+      "value": "3",
+      "formula": "=SUM(O6:Q6)"
+    },
+    {
+      "row": 7,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 7,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 7,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 7,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 7,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 7,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 7,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 7,
+      "column": "H",
+      "colIndex": 8,
+      "value": "4",
+      "formula": "=H6+1"
+    },
+    {
+      "row": 7,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.009404285880490586",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 7,
+      "column": "J",
+      "colIndex": 10,
+      "value": "Si",
+      "formula": "=IF(I7<C3;A3;A4)"
+    },
+    {
+      "row": 7,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.19895083168864708",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 7,
+      "column": "L",
+      "colIndex": 12,
+      "value": "Si",
+      "formula": "=IF(J7=\"Si\";IF(K7<$S$16;$A$16;IF(K7<$T$16;$A$17;$A$18));IF(K7<$S$22;$A$22;IF(K7<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 7,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L7=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 7,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L7=$A$18,IF(M7<$S$28,$A$28,IF(M7<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 7,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L7=\"Si\";O6+1;O6)"
+    },
+    {
+      "row": 7,
+      "column": "P",
+      "colIndex": 16,
+      "value": "2",
+      "formula": "=IF(L7=\"No\";P6+1;P6)"
+    },
+    {
+      "row": 7,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L7=\"Dudoso\";Q6+1;Q6)"
+    },
+    {
+      "row": 7,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.5",
+      "formula": "=O7/(O7+P7+Q7)"
+    },
+    {
+      "row": 7,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.5",
+      "formula": "=P7/(O7+P7+Q7)"
+    },
+    {
+      "row": 7,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q7/(O7+P7+Q7)"
+    },
+    {
+      "row": 7,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U6+IF(L7=\"Si\";1;0)"
+    },
+    {
+      "row": 7,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R7:T7)"
+    },
+    {
+      "row": 7,
+      "column": "W",
+      "colIndex": 23,
+      "value": "4",
+      "formula": "=SUM(O7:Q7)"
+    },
+    {
+      "row": 8,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Si",
+      "formula": null
+    },
+    {
+      "row": 8,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.15",
+      "formula": null
+    },
+    {
+      "row": 8,
+      "column": "C",
+      "colIndex": 3,
+      "value": "0.15",
+      "formula": null
+    },
+    {
+      "row": 8,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 8,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.149",
+      "formula": "=C8-0.001"
+    },
+    {
+      "row": 8,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 8,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 8,
+      "column": "H",
+      "colIndex": 8,
+      "value": "5",
+      "formula": "=H7+1"
+    },
+    {
+      "row": 8,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.0863806282877908",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 8,
+      "column": "J",
+      "colIndex": 10,
+      "value": "Si",
+      "formula": "=IF(I8<C3;A3;A4)"
+    },
+    {
+      "row": 8,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.49015949673327685",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 8,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J8=\"Si\";IF(K8<$S$16;$A$16;IF(K8<$T$16;$A$17;$A$18));IF(K8<$S$22;$A$22;IF(K8<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 8,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L8=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 8,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L8=$A$18,IF(M8<$S$28,$A$28,IF(M8<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 8,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L8=\"Si\";O7+1;O7)"
+    },
+    {
+      "row": 8,
+      "column": "P",
+      "colIndex": 16,
+      "value": "3",
+      "formula": "=IF(L8=\"No\";P7+1;P7)"
+    },
+    {
+      "row": 8,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L8=\"Dudoso\";Q7+1;Q7)"
+    },
+    {
+      "row": 8,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.4",
+      "formula": "=O8/(O8+P8+Q8)"
+    },
+    {
+      "row": 8,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.6",
+      "formula": "=P8/(O8+P8+Q8)"
+    },
+    {
+      "row": 8,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q8/(O8+P8+Q8)"
+    },
+    {
+      "row": 8,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U7+IF(L8=\"Si\";1;0)"
+    },
+    {
+      "row": 8,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R8:T8)"
+    },
+    {
+      "row": 8,
+      "column": "W",
+      "colIndex": 23,
+      "value": "5",
+      "formula": "=SUM(O8:Q8)"
+    },
+    {
+      "row": 9,
+      "column": "A",
+      "colIndex": 1,
+      "value": "No",
+      "formula": null
+    },
+    {
+      "row": 9,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.85",
+      "formula": null
+    },
+    {
+      "row": 9,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B9+C8"
+    },
+    {
+      "row": 9,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0.15",
+      "formula": "=C8"
+    },
+    {
+      "row": 9,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C9-0.001"
+    },
+    {
+      "row": 9,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 9,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 9,
+      "column": "H",
+      "colIndex": 8,
+      "value": "6",
+      "formula": "=H8+1"
+    },
+    {
+      "row": 9,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.7892182098679075",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 9,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I9<C3;A3;A4)"
+    },
+    {
+      "row": 9,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.4571933098317767",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 9,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J9=\"Si\";IF(K9<$S$16;$A$16;IF(K9<$T$16;$A$17;$A$18));IF(K9<$S$22;$A$22;IF(K9<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 9,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L9=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 9,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L9=$A$18,IF(M9<$S$28,$A$28,IF(M9<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 9,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L9=\"Si\";O8+1;O8)"
+    },
+    {
+      "row": 9,
+      "column": "P",
+      "colIndex": 16,
+      "value": "4",
+      "formula": "=IF(L9=\"No\";P8+1;P8)"
+    },
+    {
+      "row": 9,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L9=\"Dudoso\";Q8+1;Q8)"
+    },
+    {
+      "row": 9,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.3333333333333333",
+      "formula": "=O9/(O9+P9+Q9)"
+    },
+    {
+      "row": 9,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.6666666666666666",
+      "formula": "=P9/(O9+P9+Q9)"
+    },
+    {
+      "row": 9,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q9/(O9+P9+Q9)"
+    },
+    {
+      "row": 9,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U8+IF(L9=\"Si\";1;0)"
+    },
+    {
+      "row": 9,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R9:T9)"
+    },
+    {
+      "row": 9,
+      "column": "W",
+      "colIndex": 23,
+      "value": "6",
+      "formula": "=SUM(O9:Q9)"
+    },
+    {
+      "row": 10,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 10,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 10,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 10,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 10,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 10,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 10,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 10,
+      "column": "H",
+      "colIndex": 8,
+      "value": "7",
+      "formula": "=H9+1"
+    },
+    {
+      "row": 10,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 10,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I10<C3;A3;A4)"
+    },
+    {
+      "row": 10,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.007671727764789531",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 10,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J10=\"Si\";IF(K10<$S$16;$A$16;IF(K10<$T$16;$A$17;$A$18));IF(K10<$S$22;$A$22;IF(K10<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 10,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L10=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 10,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L10=$A$18,IF(M10<$S$28,$A$28,IF(M10<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 10,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L10=\"Si\";O9+1;O9)"
+    },
+    {
+      "row": 10,
+      "column": "P",
+      "colIndex": 16,
+      "value": "5",
+      "formula": "=IF(L10=\"No\";P9+1;P9)"
+    },
+    {
+      "row": 10,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L10=\"Dudoso\";Q9+1;Q9)"
+    },
+    {
+      "row": 10,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.2857142857142857",
+      "formula": "=O10/(O10+P10+Q10)"
+    },
+    {
+      "row": 10,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.7142857142857143",
+      "formula": "=P10/(O10+P10+Q10)"
+    },
+    {
+      "row": 10,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q10/(O10+P10+Q10)"
+    },
+    {
+      "row": 10,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U9+IF(L10=\"Si\";1;0)"
+    },
+    {
+      "row": 10,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R10:T10)"
+    },
+    {
+      "row": 10,
+      "column": "W",
+      "colIndex": 23,
+      "value": "7",
+      "formula": "=SUM(O10:Q10)"
+    },
+    {
+      "row": 11,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Si",
+      "formula": null
+    },
+    {
+      "row": 11,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 11,
+      "column": "C",
+      "colIndex": 3,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 11,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 11,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.549",
+      "formula": "=C11-0.001"
+    },
+    {
+      "row": 11,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 11,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 11,
+      "column": "H",
+      "colIndex": 8,
+      "value": "8",
+      "formula": "=H10+1"
+    },
+    {
+      "row": 11,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.8654877375253818",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 11,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I11<C3;A3;A4)"
+    },
+    {
+      "row": 11,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.3664032223789393",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 11,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J11=\"Si\";IF(K11<$S$16;$A$16;IF(K11<$T$16;$A$17;$A$18));IF(K11<$S$22;$A$22;IF(K11<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 11,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L11=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 11,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L11=$A$18,IF(M11<$S$28,$A$28,IF(M11<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 11,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L11=\"Si\";O10+1;O10)"
+    },
+    {
+      "row": 11,
+      "column": "P",
+      "colIndex": 16,
+      "value": "6",
+      "formula": "=IF(L11=\"No\";P10+1;P10)"
+    },
+    {
+      "row": 11,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L11=\"Dudoso\";Q10+1;Q10)"
+    },
+    {
+      "row": 11,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.25",
+      "formula": "=O11/(O11+P11+Q11)"
+    },
+    {
+      "row": 11,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.75",
+      "formula": "=P11/(O11+P11+Q11)"
+    },
+    {
+      "row": 11,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q11/(O11+P11+Q11)"
+    },
+    {
+      "row": 11,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U10+IF(L11=\"Si\";1;0)"
+    },
+    {
+      "row": 11,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R11:T11)"
+    },
+    {
+      "row": 11,
+      "column": "W",
+      "colIndex": 23,
+      "value": "8",
+      "formula": "=SUM(O11:Q11)"
+    },
+    {
+      "row": 12,
+      "column": "A",
+      "colIndex": 1,
+      "value": "No",
+      "formula": null
+    },
+    {
+      "row": 12,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.45",
+      "formula": null
+    },
+    {
+      "row": 12,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B12+C11"
+    },
+    {
+      "row": 12,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0.55",
+      "formula": "=C11"
+    },
+    {
+      "row": 12,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C12-0.001"
+    },
+    {
+      "row": 12,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 12,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 12,
+      "column": "H",
+      "colIndex": 8,
+      "value": "9",
+      "formula": "=H11+1"
+    },
+    {
+      "row": 12,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.686419754406254",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 12,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I12<C3;A3;A4)"
+    },
+    {
+      "row": 12,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.08332906841285496",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 12,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J12=\"Si\";IF(K12<$S$16;$A$16;IF(K12<$T$16;$A$17;$A$18));IF(K12<$S$22;$A$22;IF(K12<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 12,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L12=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 12,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L12=$A$18,IF(M12<$S$28,$A$28,IF(M12<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 12,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L12=\"Si\";O11+1;O11)"
+    },
+    {
+      "row": 12,
+      "column": "P",
+      "colIndex": 16,
+      "value": "7",
+      "formula": "=IF(L12=\"No\";P11+1;P11)"
+    },
+    {
+      "row": 12,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L12=\"Dudoso\";Q11+1;Q11)"
+    },
+    {
+      "row": 12,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.2222222222222222",
+      "formula": "=O12/(O12+P12+Q12)"
+    },
+    {
+      "row": 12,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.7777777777777778",
+      "formula": "=P12/(O12+P12+Q12)"
+    },
+    {
+      "row": 12,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q12/(O12+P12+Q12)"
+    },
+    {
+      "row": 12,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U11+IF(L12=\"Si\";1;0)"
+    },
+    {
+      "row": 12,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R12:T12)"
+    },
+    {
+      "row": 12,
+      "column": "W",
+      "colIndex": 23,
+      "value": "9",
+      "formula": "=SUM(O12:Q12)"
+    },
+    {
+      "row": 13,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 13,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 13,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 13,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 13,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 13,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 13,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 13,
+      "column": "H",
+      "colIndex": 8,
+      "value": "10",
+      "formula": "=H12+1"
+    },
+    {
+      "row": 13,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.7226505058774786",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 13,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I13<C3;A3;A4)"
+    },
+    {
+      "row": 13,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 13,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J13=\"Si\";IF(K13<$S$16;$A$16;IF(K13<$T$16;$A$17;$A$18));IF(K13<$S$22;$A$22;IF(K13<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 13,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L13=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 13,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L13=$A$18,IF(M13<$S$28,$A$28,IF(M13<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 13,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L13=\"Si\";O12+1;O12)"
+    },
+    {
+      "row": 13,
+      "column": "P",
+      "colIndex": 16,
+      "value": "8",
+      "formula": "=IF(L13=\"No\";P12+1;P12)"
+    },
+    {
+      "row": 13,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L13=\"Dudoso\";Q12+1;Q12)"
+    },
+    {
+      "row": 13,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.2",
+      "formula": "=O13/(O13+P13+Q13)"
+    },
+    {
+      "row": 13,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8",
+      "formula": "=P13/(O13+P13+Q13)"
+    },
+    {
+      "row": 13,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q13/(O13+P13+Q13)"
+    },
+    {
+      "row": 13,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U12+IF(L13=\"Si\";1;0)"
+    },
+    {
+      "row": 13,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R13:T13)"
+    },
+    {
+      "row": 13,
+      "column": "W",
+      "colIndex": 23,
+      "value": "10",
+      "formula": "=SUM(O13:Q13)"
+    },
+    {
+      "row": 14,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 14,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 14,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 14,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 14,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 14,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 14,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 14,
+      "column": "H",
+      "colIndex": 8,
+      "value": "11",
+      "formula": "=H13+1"
+    },
+    {
+      "row": 14,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19827361998595804",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 14,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I14<C3;A3;A4)"
+    },
+    {
+      "row": 14,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.5828453472099307",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 14,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J14=\"Si\";IF(K14<$S$16;$A$16;IF(K14<$T$16;$A$17;$A$18));IF(K14<$S$22;$A$22;IF(K14<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 14,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L14=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 14,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L14=$A$18,IF(M14<$S$28,$A$28,IF(M14<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 14,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L14=\"Si\";O13+1;O13)"
+    },
+    {
+      "row": 14,
+      "column": "P",
+      "colIndex": 16,
+      "value": "9",
+      "formula": "=IF(L14=\"No\";P13+1;P13)"
+    },
+    {
+      "row": 14,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L14=\"Dudoso\";Q13+1;Q13)"
+    },
+    {
+      "row": 14,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.18181818181818182",
+      "formula": "=O14/(O14+P14+Q14)"
+    },
+    {
+      "row": 14,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8181818181818182",
+      "formula": "=P14/(O14+P14+Q14)"
+    },
+    {
+      "row": 14,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q14/(O14+P14+Q14)"
+    },
+    {
+      "row": 14,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U13+IF(L14=\"Si\";1;0)"
+    },
+    {
+      "row": 14,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R14:T14)"
+    },
+    {
+      "row": 14,
+      "column": "W",
+      "colIndex": 23,
+      "value": "11",
+      "formula": "=SUM(O14:Q14)"
+    },
+    {
+      "row": 15,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 15,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 15,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 15,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 15,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 15,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 15,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 15,
+      "column": "H",
+      "colIndex": 8,
+      "value": "12",
+      "formula": "=H14+1"
+    },
+    {
+      "row": 15,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 15,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I15<C3;A3;A4)"
+    },
+    {
+      "row": 15,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 15,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J15=\"Si\";IF(K15<$S$16;$A$16;IF(K15<$T$16;$A$17;$A$18));IF(K15<$S$22;$A$22;IF(K15<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 15,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L15=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 15,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L15=$A$18,IF(M15<$S$28,$A$28,IF(M15<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 15,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L15=\"Si\";O14+1;O14)"
+    },
+    {
+      "row": 15,
+      "column": "P",
+      "colIndex": 16,
+      "value": "10",
+      "formula": "=IF(L15=\"No\";P14+1;P14)"
+    },
+    {
+      "row": 15,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L15=\"Dudoso\";Q14+1;Q14)"
+    },
+    {
+      "row": 15,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.16666666666666666",
+      "formula": "=O15/(O15+P15+Q15)"
+    },
+    {
+      "row": 15,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8333333333333334",
+      "formula": "=P15/(O15+P15+Q15)"
+    },
+    {
+      "row": 15,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q15/(O15+P15+Q15)"
+    },
+    {
+      "row": 15,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U14+IF(L15=\"Si\";1;0)"
+    },
+    {
+      "row": 15,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R15:T15)"
+    },
+    {
+      "row": 15,
+      "column": "W",
+      "colIndex": 23,
+      "value": "12",
+      "formula": "=SUM(O15:Q15)"
+    },
+    {
+      "row": 16,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Si",
+      "formula": null
+    },
+    {
+      "row": 16,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 16,
+      "column": "C",
+      "colIndex": 3,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 16,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 16,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.549",
+      "formula": "=C16-0.001"
+    },
+    {
+      "row": 16,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 16,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 16,
+      "column": "H",
+      "colIndex": 8,
+      "value": "13",
+      "formula": "=H15+1"
+    },
+    {
+      "row": 16,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 16,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I16<C3;A3;A4)"
+    },
+    {
+      "row": 16,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 16,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J16=\"Si\";IF(K16<$S$16;$A$16;IF(K16<$T$16;$A$17;$A$18));IF(K16<$S$22;$A$22;IF(K16<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 16,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L16=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 16,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L16=$A$18,IF(M16<$S$28,$A$28,IF(M16<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 16,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L16=\"Si\";O15+1;O15)"
+    },
+    {
+      "row": 16,
+      "column": "P",
+      "colIndex": 16,
+      "value": "11",
+      "formula": "=IF(L16=\"No\";P15+1;P15)"
+    },
+    {
+      "row": 16,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L16=\"Dudoso\";Q15+1;Q15)"
+    },
+    {
+      "row": 16,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.15384615384615385",
+      "formula": "=O16/(O16+P16+Q16)"
+    },
+    {
+      "row": 16,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8461538461538461",
+      "formula": "=P16/(O16+P16+Q16)"
+    },
+    {
+      "row": 16,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q16/(O16+P16+Q16)"
+    },
+    {
+      "row": 16,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U15+IF(L16=\"Si\";1;0)"
+    },
+    {
+      "row": 16,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R16:T16)"
+    },
+    {
+      "row": 16,
+      "column": "W",
+      "colIndex": 23,
+      "value": "13",
+      "formula": "=SUM(O16:Q16)"
+    },
+    {
+      "row": 17,
+      "column": "A",
+      "colIndex": 1,
+      "value": "No",
+      "formula": null
+    },
+    {
+      "row": 17,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.45",
+      "formula": null
+    },
+    {
+      "row": 17,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B17+C16"
+    },
+    {
+      "row": 17,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0.55",
+      "formula": "=C16"
+    },
+    {
+      "row": 17,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C17-0.001"
+    },
+    {
+      "row": 17,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 17,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 17,
+      "column": "H",
+      "colIndex": 8,
+      "value": "14",
+      "formula": "=H16+1"
+    },
+    {
+      "row": 17,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 17,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I17<C3;A3;A4)"
+    },
+    {
+      "row": 17,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 17,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J17=\"Si\";IF(K17<$S$16;$A$16;IF(K17<$T$16;$A$17;$A$18));IF(K17<$S$22;$A$22;IF(K17<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 17,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L17=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 17,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L17=$A$18,IF(M17<$S$28,$A$28,IF(M17<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 17,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L17=\"Si\";O16+1;O16)"
+    },
+    {
+      "row": 17,
+      "column": "P",
+      "colIndex": 16,
+      "value": "12",
+      "formula": "=IF(L17=\"No\";P16+1;P16)"
+    },
+    {
+      "row": 17,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L17=\"Dudoso\";Q16+1;Q16)"
+    },
+    {
+      "row": 17,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.14285714285714285",
+      "formula": "=O17/(O17+P17+Q17)"
+    },
+    {
+      "row": 17,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8571428571428571",
+      "formula": "=P17/(O17+P17+Q17)"
+    },
+    {
+      "row": 17,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q17/(O17+P17+Q17)"
+    },
+    {
+      "row": 17,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U16+IF(L17=\"Si\";1;0)"
+    },
+    {
+      "row": 17,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R17:T17)"
+    },
+    {
+      "row": 17,
+      "column": "W",
+      "colIndex": 23,
+      "value": "14",
+      "formula": "=SUM(O17:Q17)"
+    },
+    {
+      "row": 18,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Dudoso",
+      "formula": null
+    },
+    {
+      "row": 18,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.00",
+      "formula": null
+    },
+    {
+      "row": 18,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B18+C17"
+    },
+    {
+      "row": 18,
+      "column": "D",
+      "colIndex": 4,
+      "value": "1",
+      "formula": "=C17"
+    },
+    {
+      "row": 18,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C18-0.001"
+    },
+    {
+      "row": 18,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 18,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 18,
+      "column": "H",
+      "colIndex": 8,
+      "value": "15",
+      "formula": "=H17+1"
+    },
+    {
+      "row": 18,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 18,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I18<C3;A3;A4)"
+    },
+    {
+      "row": 18,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 18,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J18=\"Si\";IF(K18<$S$16;$A$16;IF(K18<$T$16;$A$17;$A$18));IF(K18<$S$22;$A$22;IF(K18<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 18,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L18=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 18,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L18=$A$18,IF(M18<$S$28,$A$28,IF(M18<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 18,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L18=\"Si\";O17+1;O17)"
+    },
+    {
+      "row": 18,
+      "column": "P",
+      "colIndex": 16,
+      "value": "13",
+      "formula": "=IF(L18=\"No\";P17+1;P17)"
+    },
+    {
+      "row": 18,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L18=\"Dudoso\";Q17+1;Q17)"
+    },
+    {
+      "row": 18,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.13333333333333333",
+      "formula": "=O18/(O18+P18+Q18)"
+    },
+    {
+      "row": 18,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8666666666666667",
+      "formula": "=P18/(O18+P18+Q18)"
+    },
+    {
+      "row": 18,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q18/(O18+P18+Q18)"
+    },
+    {
+      "row": 18,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U17+IF(L18=\"Si\";1;0)"
+    },
+    {
+      "row": 18,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R18:T18)"
+    },
+    {
+      "row": 18,
+      "column": "W",
+      "colIndex": 23,
+      "value": "15",
+      "formula": "=SUM(O18:Q18)"
+    },
+    {
+      "row": 19,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 19,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 19,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 19,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 19,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 19,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 19,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 19,
+      "column": "H",
+      "colIndex": 8,
+      "value": "16",
+      "formula": "=H18+1"
+    },
+    {
+      "row": 19,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 19,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I19<C3;A3;A4)"
+    },
+    {
+      "row": 19,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 19,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J19=\"Si\";IF(K19<$S$16;$A$16;IF(K19<$T$16;$A$17;$A$18));IF(K19<$S$22;$A$22;IF(K19<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 19,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L19=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 19,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L19=$A$18,IF(M19<$S$28,$A$28,IF(M19<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 19,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L19=\"Si\";O18+1;O18)"
+    },
+    {
+      "row": 19,
+      "column": "P",
+      "colIndex": 16,
+      "value": "14",
+      "formula": "=IF(L19=\"No\";P18+1;P18)"
+    },
+    {
+      "row": 19,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L19=\"Dudoso\";Q18+1;Q18)"
+    },
+    {
+      "row": 19,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.125",
+      "formula": "=O19/(O19+P19+Q19)"
+    },
+    {
+      "row": 19,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.875",
+      "formula": "=P19/(O19+P19+Q19)"
+    },
+    {
+      "row": 19,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q19/(O19+P19+Q19)"
+    },
+    {
+      "row": 19,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U18+IF(L19=\"Si\";1;0)"
+    },
+    {
+      "row": 19,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R19:T19)"
+    },
+    {
+      "row": 19,
+      "column": "W",
+      "colIndex": 23,
+      "value": "16",
+      "formula": "=SUM(O19:Q19)"
+    },
+    {
+      "row": 20,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 20,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 20,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 20,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 20,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 20,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 20,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 20,
+      "column": "H",
+      "colIndex": 8,
+      "value": "17",
+      "formula": "=H19+1"
+    },
+    {
+      "row": 20,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 20,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I20<C3;A3;A4)"
+    },
+    {
+      "row": 20,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 20,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J20=\"Si\";IF(K20<$S$16;$A$16;IF(K20<$T$16;$A$17;$A$18));IF(K20<$S$22;$A$22;IF(K20<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 20,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L20=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 20,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L20=$A$18,IF(M20<$S$28,$A$28,IF(M20<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 20,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L20=\"Si\";O19+1;O19)"
+    },
+    {
+      "row": 20,
+      "column": "P",
+      "colIndex": 16,
+      "value": "15",
+      "formula": "=IF(L20=\"No\";P19+1;P19)"
+    },
+    {
+      "row": 20,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L20=\"Dudoso\";Q19+1;Q19)"
+    },
+    {
+      "row": 20,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.11764705882352941",
+      "formula": "=O20/(O20+P20+Q20)"
+    },
+    {
+      "row": 20,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8823529411764706",
+      "formula": "=P20/(O20+P20+Q20)"
+    },
+    {
+      "row": 20,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q20/(O20+P20+Q20)"
+    },
+    {
+      "row": 20,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U19+IF(L20=\"Si\";1;0)"
+    },
+    {
+      "row": 20,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R20:T20)"
+    },
+    {
+      "row": 20,
+      "column": "W",
+      "colIndex": 23,
+      "value": "17",
+      "formula": "=SUM(O20:Q20)"
+    },
+    {
+      "row": 21,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 21,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 21,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 21,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 21,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 21,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 21,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 21,
+      "column": "H",
+      "colIndex": 8,
+      "value": "18",
+      "formula": "=H20+1"
+    },
+    {
+      "row": 21,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 21,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I21<C3;A3;A4)"
+    },
+    {
+      "row": 21,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 21,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J21=\"Si\";IF(K21<$S$16;$A$16;IF(K21<$T$16;$A$17;$A$18));IF(K21<$S$22;$A$22;IF(K21<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 21,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L21=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 21,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L21=$A$18,IF(M21<$S$28,$A$28,IF(M21<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 21,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L21=\"Si\";O20+1;O20)"
+    },
+    {
+      "row": 21,
+      "column": "P",
+      "colIndex": 16,
+      "value": "16",
+      "formula": "=IF(L21=\"No\";P20+1;P20)"
+    },
+    {
+      "row": 21,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L21=\"Dudoso\";Q20+1;Q20)"
+    },
+    {
+      "row": 21,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.1111111111111111",
+      "formula": "=O21/(O21+P21+Q21)"
+    },
+    {
+      "row": 21,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8888888888888888",
+      "formula": "=P21/(O21+P21+Q21)"
+    },
+    {
+      "row": 21,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q21/(O21+P21+Q21)"
+    },
+    {
+      "row": 21,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U20+IF(L21=\"Si\";1;0)"
+    },
+    {
+      "row": 21,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R21:T21)"
+    },
+    {
+      "row": 21,
+      "column": "W",
+      "colIndex": 23,
+      "value": "18",
+      "formula": "=SUM(O21:Q21)"
+    },
+    {
+      "row": 22,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Si",
+      "formula": null
+    },
+    {
+      "row": 22,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.15",
+      "formula": null
+    },
+    {
+      "row": 22,
+      "column": "C",
+      "colIndex": 3,
+      "value": "0.15",
+      "formula": null
+    },
+    {
+      "row": 22,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 22,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.149",
+      "formula": "=C22-0.001"
+    },
+    {
+      "row": 22,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 22,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 22,
+      "column": "H",
+      "colIndex": 8,
+      "value": "19",
+      "formula": "=H21+1"
+    },
+    {
+      "row": 22,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 22,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I22<C3;A3;A4)"
+    },
+    {
+      "row": 22,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 22,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J22=\"Si\";IF(K22<$S$16;$A$16;IF(K22<$T$16;$A$17;$A$18));IF(K22<$S$22;$A$22;IF(K22<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 22,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L22=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 22,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L22=$A$18,IF(M22<$S$28,$A$28,IF(M22<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 22,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L22=\"Si\";O21+1;O21)"
+    },
+    {
+      "row": 22,
+      "column": "P",
+      "colIndex": 16,
+      "value": "17",
+      "formula": "=IF(L22=\"No\";P21+1;P21)"
+    },
+    {
+      "row": 22,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L22=\"Dudoso\";Q21+1;Q21)"
+    },
+    {
+      "row": 22,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.10526315789473684",
+      "formula": "=O22/(O22+P22+Q22)"
+    },
+    {
+      "row": 22,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.8947368421052632",
+      "formula": "=P22/(O22+P22+Q22)"
+    },
+    {
+      "row": 22,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q22/(O22+P22+Q22)"
+    },
+    {
+      "row": 22,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U21+IF(L22=\"Si\";1;0)"
+    },
+    {
+      "row": 22,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R22:T22)"
+    },
+    {
+      "row": 22,
+      "column": "W",
+      "colIndex": 23,
+      "value": "19",
+      "formula": "=SUM(O22:Q22)"
+    },
+    {
+      "row": 23,
+      "column": "A",
+      "colIndex": 1,
+      "value": "No",
+      "formula": null
+    },
+    {
+      "row": 23,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.85",
+      "formula": null
+    },
+    {
+      "row": 23,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B23+C22"
+    },
+    {
+      "row": 23,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0.15",
+      "formula": "=C22"
+    },
+    {
+      "row": 23,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C23-0.001"
+    },
+    {
+      "row": 23,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 23,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 23,
+      "column": "H",
+      "colIndex": 8,
+      "value": "20",
+      "formula": "=H22+1"
+    },
+    {
+      "row": 23,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 23,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I23<C3;A3;A4)"
+    },
+    {
+      "row": 23,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 23,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J23=\"Si\";IF(K23<$S$16;$A$16;IF(K23<$T$16;$A$17;$A$18));IF(K23<$S$22;$A$22;IF(K23<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 23,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L23=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 23,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L23=$A$18,IF(M23<$S$28,$A$28,IF(M23<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 23,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L23=\"Si\";O22+1;O22)"
+    },
+    {
+      "row": 23,
+      "column": "P",
+      "colIndex": 16,
+      "value": "18",
+      "formula": "=IF(L23=\"No\";P22+1;P22)"
+    },
+    {
+      "row": 23,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L23=\"Dudoso\";Q22+1;Q22)"
+    },
+    {
+      "row": 23,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.1",
+      "formula": "=O23/(O23+P23+Q23)"
+    },
+    {
+      "row": 23,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9",
+      "formula": "=P23/(O23+P23+Q23)"
+    },
+    {
+      "row": 23,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q23/(O23+P23+Q23)"
+    },
+    {
+      "row": 23,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U22+IF(L23=\"Si\";1;0)"
+    },
+    {
+      "row": 23,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R23:T23)"
+    },
+    {
+      "row": 23,
+      "column": "W",
+      "colIndex": 23,
+      "value": "20",
+      "formula": "=SUM(O23:Q23)"
+    },
+    {
+      "row": 24,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Dudoso",
+      "formula": null
+    },
+    {
+      "row": 24,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.00",
+      "formula": null
+    },
+    {
+      "row": 24,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B24+C23"
+    },
+    {
+      "row": 24,
+      "column": "D",
+      "colIndex": 4,
+      "value": "1",
+      "formula": "=C23"
+    },
+    {
+      "row": 24,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C24-0.001"
+    },
+    {
+      "row": 24,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 24,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 24,
+      "column": "H",
+      "colIndex": 8,
+      "value": "21",
+      "formula": "=H23+1"
+    },
+    {
+      "row": 24,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 24,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I24<C3;A3;A4)"
+    },
+    {
+      "row": 24,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 24,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J24=\"Si\";IF(K24<$S$16;$A$16;IF(K24<$T$16;$A$17;$A$18));IF(K24<$S$22;$A$22;IF(K24<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 24,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L24=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 24,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L24=$A$18,IF(M24<$S$28,$A$28,IF(M24<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 24,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L24=\"Si\";O23+1;O23)"
+    },
+    {
+      "row": 24,
+      "column": "P",
+      "colIndex": 16,
+      "value": "19",
+      "formula": "=IF(L24=\"No\";P23+1;P23)"
+    },
+    {
+      "row": 24,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L24=\"Dudoso\";Q23+1;Q23)"
+    },
+    {
+      "row": 24,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.09523809523809523",
+      "formula": "=O24/(O24+P24+Q24)"
+    },
+    {
+      "row": 24,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9047619047619048",
+      "formula": "=P24/(O24+P24+Q24)"
+    },
+    {
+      "row": 24,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q24/(O24+P24+Q24)"
+    },
+    {
+      "row": 24,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U23+IF(L24=\"Si\";1;0)"
+    },
+    {
+      "row": 24,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R24:T24)"
+    },
+    {
+      "row": 24,
+      "column": "W",
+      "colIndex": 23,
+      "value": "21",
+      "formula": "=SUM(O24:Q24)"
+    },
+    {
+      "row": 25,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 25,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 25,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 25,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 25,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 25,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 25,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 25,
+      "column": "H",
+      "colIndex": 8,
+      "value": "22",
+      "formula": "=H24+1"
+    },
+    {
+      "row": 25,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 25,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I25<C3;A3;A4)"
+    },
+    {
+      "row": 25,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 25,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J25=\"Si\";IF(K25<$S$16;$A$16;IF(K25<$T$16;$A$17;$A$18));IF(K25<$S$22;$A$22;IF(K25<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 25,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L25=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 25,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L25=$A$18,IF(M25<$S$28,$A$28,IF(M25<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 25,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L25=\"Si\";O24+1;O24)"
+    },
+    {
+      "row": 25,
+      "column": "P",
+      "colIndex": 16,
+      "value": "20",
+      "formula": "=IF(L25=\"No\";P24+1;P24)"
+    },
+    {
+      "row": 25,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L25=\"Dudoso\";Q24+1;Q24)"
+    },
+    {
+      "row": 25,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.09090909090909091",
+      "formula": "=O25/(O25+P25+Q25)"
+    },
+    {
+      "row": 25,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9090909090909091",
+      "formula": "=P25/(O25+P25+Q25)"
+    },
+    {
+      "row": 25,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q25/(O25+P25+Q25)"
+    },
+    {
+      "row": 25,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U24+IF(L25=\"Si\";1;0)"
+    },
+    {
+      "row": 25,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R25:T25)"
+    },
+    {
+      "row": 25,
+      "column": "W",
+      "colIndex": 23,
+      "value": "22",
+      "formula": "=SUM(O25:Q25)"
+    },
+    {
+      "row": 26,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 26,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 26,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 26,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 26,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 26,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 26,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 26,
+      "column": "H",
+      "colIndex": 8,
+      "value": "23",
+      "formula": "=H25+1"
+    },
+    {
+      "row": 26,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 26,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I26<C3;A3;A4)"
+    },
+    {
+      "row": 26,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 26,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J26=\"Si\";IF(K26<$S$16;$A$16;IF(K26<$T$16;$A$17;$A$18));IF(K26<$S$22;$A$22;IF(K26<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 26,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L26=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 26,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L26=$A$18,IF(M26<$S$28,$A$28,IF(M26<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 26,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L26=\"Si\";O25+1;O25)"
+    },
+    {
+      "row": 26,
+      "column": "P",
+      "colIndex": 16,
+      "value": "21",
+      "formula": "=IF(L26=\"No\";P25+1;P25)"
+    },
+    {
+      "row": 26,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L26=\"Dudoso\";Q25+1;Q25)"
+    },
+    {
+      "row": 26,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.08695652173913043",
+      "formula": "=O26/(O26+P26+Q26)"
+    },
+    {
+      "row": 26,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9130434782608695",
+      "formula": "=P26/(O26+P26+Q26)"
+    },
+    {
+      "row": 26,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q26/(O26+P26+Q26)"
+    },
+    {
+      "row": 26,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U25+IF(L26=\"Si\";1;0)"
+    },
+    {
+      "row": 26,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R26:T26)"
+    },
+    {
+      "row": 26,
+      "column": "W",
+      "colIndex": 23,
+      "value": "23",
+      "formula": "=SUM(O26:Q26)"
+    },
+    {
+      "row": 27,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 27,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 27,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 27,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 27,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 27,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 27,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 27,
+      "column": "H",
+      "colIndex": 8,
+      "value": "24",
+      "formula": "=H26+1"
+    },
+    {
+      "row": 27,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 27,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I27<C3;A3;A4)"
+    },
+    {
+      "row": 27,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 27,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J27=\"Si\";IF(K27<$S$16;$A$16;IF(K27<$T$16;$A$17;$A$18));IF(K27<$S$22;$A$22;IF(K27<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 27,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L27=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 27,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L27=$A$18,IF(M27<$S$28,$A$28,IF(M27<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 27,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L27=\"Si\";O26+1;O26)"
+    },
+    {
+      "row": 27,
+      "column": "P",
+      "colIndex": 16,
+      "value": "22",
+      "formula": "=IF(L27=\"No\";P26+1;P26)"
+    },
+    {
+      "row": 27,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L27=\"Dudoso\";Q26+1;Q26)"
+    },
+    {
+      "row": 27,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.08333333333333333",
+      "formula": "=O27/(O27+P27+Q27)"
+    },
+    {
+      "row": 27,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9166666666666666",
+      "formula": "=P27/(O27+P27+Q27)"
+    },
+    {
+      "row": 27,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q27/(O27+P27+Q27)"
+    },
+    {
+      "row": 27,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U26+IF(L27=\"Si\";1;0)"
+    },
+    {
+      "row": 27,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R27:T27)"
+    },
+    {
+      "row": 27,
+      "column": "W",
+      "colIndex": 23,
+      "value": "24",
+      "formula": "=SUM(O27:Q27)"
+    },
+    {
+      "row": 28,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Si",
+      "formula": null
+    },
+    {
+      "row": 28,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 28,
+      "column": "C",
+      "colIndex": 3,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 28,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 28,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.549",
+      "formula": "=C28-0.001"
+    },
+    {
+      "row": 28,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 28,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 28,
+      "column": "H",
+      "colIndex": 8,
+      "value": "25",
+      "formula": "=H27+1"
+    },
+    {
+      "row": 28,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 28,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I28<C3;A3;A4)"
+    },
+    {
+      "row": 28,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 28,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J28=\"Si\";IF(K28<$S$16;$A$16;IF(K28<$T$16;$A$17;$A$18));IF(K28<$S$22;$A$22;IF(K28<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 28,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L28=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 28,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L28=$A$18,IF(M28<$S$28,$A$28,IF(M28<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 28,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L28=\"Si\";O27+1;O27)"
+    },
+    {
+      "row": 28,
+      "column": "P",
+      "colIndex": 16,
+      "value": "23",
+      "formula": "=IF(L28=\"No\";P27+1;P27)"
+    },
+    {
+      "row": 28,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L28=\"Dudoso\";Q27+1;Q27)"
+    },
+    {
+      "row": 28,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.08",
+      "formula": "=O28/(O28+P28+Q28)"
+    },
+    {
+      "row": 28,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.92",
+      "formula": "=P28/(O28+P28+Q28)"
+    },
+    {
+      "row": 28,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q28/(O28+P28+Q28)"
+    },
+    {
+      "row": 28,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U27+IF(L28=\"Si\";1;0)"
+    },
+    {
+      "row": 28,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R28:T28)"
+    },
+    {
+      "row": 28,
+      "column": "W",
+      "colIndex": 23,
+      "value": "25",
+      "formula": "=SUM(O28:Q28)"
+    },
+    {
+      "row": 29,
+      "column": "A",
+      "colIndex": 1,
+      "value": "No",
+      "formula": null
+    },
+    {
+      "row": 29,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.45",
+      "formula": null
+    },
+    {
+      "row": 29,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B29+C28"
+    },
+    {
+      "row": 29,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0.55",
+      "formula": "=C28"
+    },
+    {
+      "row": 29,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C29-0.001"
+    },
+    {
+      "row": 29,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 29,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 29,
+      "column": "H",
+      "colIndex": 8,
+      "value": "26",
+      "formula": "=H28+1"
+    },
+    {
+      "row": 29,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 29,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I29<C3;A3;A4)"
+    },
+    {
+      "row": 29,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 29,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J29=\"Si\";IF(K29<$S$16;$A$16;IF(K29<$T$16;$A$17;$A$18));IF(K29<$S$22;$A$22;IF(K29<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 29,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L29=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 29,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L29=$A$18,IF(M29<$S$28,$A$28,IF(M29<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 29,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L29=\"Si\";O28+1;O28)"
+    },
+    {
+      "row": 29,
+      "column": "P",
+      "colIndex": 16,
+      "value": "24",
+      "formula": "=IF(L29=\"No\";P28+1;P28)"
+    },
+    {
+      "row": 29,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L29=\"Dudoso\";Q28+1;Q28)"
+    },
+    {
+      "row": 29,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.07692307692307693",
+      "formula": "=O29/(O29+P29+Q29)"
+    },
+    {
+      "row": 29,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9230769230769231",
+      "formula": "=P29/(O29+P29+Q29)"
+    },
+    {
+      "row": 29,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q29/(O29+P29+Q29)"
+    },
+    {
+      "row": 29,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U28+IF(L29=\"Si\";1;0)"
+    },
+    {
+      "row": 29,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R29:T29)"
+    },
+    {
+      "row": 29,
+      "column": "W",
+      "colIndex": 23,
+      "value": "26",
+      "formula": "=SUM(O29:Q29)"
+    },
+    {
+      "row": 30,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Dudoso",
+      "formula": null
+    },
+    {
+      "row": 30,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.00",
+      "formula": null
+    },
+    {
+      "row": 30,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B30+C29"
+    },
+    {
+      "row": 30,
+      "column": "D",
+      "colIndex": 4,
+      "value": "1",
+      "formula": "=C29"
+    },
+    {
+      "row": 30,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C30-0.001"
+    },
+    {
+      "row": 30,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 30,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 30,
+      "column": "H",
+      "colIndex": 8,
+      "value": "27",
+      "formula": "=H29+1"
+    },
+    {
+      "row": 30,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 30,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I30<C3;A3;A4)"
+    },
+    {
+      "row": 30,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 30,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J30=\"Si\";IF(K30<$S$16;$A$16;IF(K30<$T$16;$A$17;$A$18));IF(K30<$S$22;$A$22;IF(K30<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 30,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L30=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 30,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L30=$A$18,IF(M30<$S$28,$A$28,IF(M30<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 30,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L30=\"Si\";O29+1;O29)"
+    },
+    {
+      "row": 30,
+      "column": "P",
+      "colIndex": 16,
+      "value": "25",
+      "formula": "=IF(L30=\"No\";P29+1;P29)"
+    },
+    {
+      "row": 30,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L30=\"Dudoso\";Q29+1;Q29)"
+    },
+    {
+      "row": 30,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.07407407407407407",
+      "formula": "=O30/(O30+P30+Q30)"
+    },
+    {
+      "row": 30,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9259259259259259",
+      "formula": "=P30/(O30+P30+Q30)"
+    },
+    {
+      "row": 30,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q30/(O30+P30+Q30)"
+    },
+    {
+      "row": 30,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U29+IF(L30=\"Si\";1;0)"
+    },
+    {
+      "row": 30,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R30:T30)"
+    },
+    {
+      "row": 30,
+      "column": "W",
+      "colIndex": 23,
+      "value": "27",
+      "formula": "=SUM(O30:Q30)"
+    },
+    {
+      "row": 31,
+      "column": "A",
+      "colIndex": 1,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 31,
+      "column": "B",
+      "colIndex": 2,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 31,
+      "column": "C",
+      "colIndex": 3,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 31,
+      "column": "D",
+      "colIndex": 4,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 31,
+      "column": "E",
+      "colIndex": 5,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 31,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 31,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 31,
+      "column": "H",
+      "colIndex": 8,
+      "value": "28",
+      "formula": "=H30+1"
+    },
+    {
+      "row": 31,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 31,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I31<C3;A3;A4)"
+    },
+    {
+      "row": 31,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 31,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J31=\"Si\";IF(K31<$S$16;$A$16;IF(K31<$T$16;$A$17;$A$18));IF(K31<$S$22;$A$22;IF(K31<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 31,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L31=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 31,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L31=$A$18,IF(M31<$S$28,$A$28,IF(M31<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 31,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L31=\"Si\";O30+1;O30)"
+    },
+    {
+      "row": 31,
+      "column": "P",
+      "colIndex": 16,
+      "value": "26",
+      "formula": "=IF(L31=\"No\";P30+1;P30)"
+    },
+    {
+      "row": 31,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L31=\"Dudoso\";Q30+1;Q30)"
+    },
+    {
+      "row": 31,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.07142857142857142",
+      "formula": "=O31/(O31+P31+Q31)"
+    },
+    {
+      "row": 31,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9285714285714286",
+      "formula": "=P31/(O31+P31+Q31)"
+    },
+    {
+      "row": 31,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q31/(O31+P31+Q31)"
+    },
+    {
+      "row": 31,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U30+IF(L31=\"Si\";1;0)"
+    },
+    {
+      "row": 31,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R31:T31)"
+    },
+    {
+      "row": 31,
+      "column": "W",
+      "colIndex": 23,
+      "value": "28",
+      "formula": "=SUM(O31:Q31)"
+    },
+    {
+      "row": 32,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Si",
+      "formula": null
+    },
+    {
+      "row": 32,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 32,
+      "column": "C",
+      "colIndex": 3,
+      "value": "0.55",
+      "formula": null
+    },
+    {
+      "row": 32,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0",
+      "formula": null
+    },
+    {
+      "row": 32,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.549",
+      "formula": "=C32-0.001"
+    },
+    {
+      "row": 32,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 32,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 32,
+      "column": "H",
+      "colIndex": 8,
+      "value": "29",
+      "formula": "=H31+1"
+    },
+    {
+      "row": 32,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 32,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I32<C3;A3;A4)"
+    },
+    {
+      "row": 32,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 32,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J32=\"Si\";IF(K32<$S$16;$A$16;IF(K32<$T$16;$A$17;$A$18));IF(K32<$S$22;$A$22;IF(K32<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 32,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L32=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 32,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L32=$A$18,IF(M32<$S$28,$A$28,IF(M32<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 32,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L32=\"Si\";O31+1;O31)"
+    },
+    {
+      "row": 32,
+      "column": "P",
+      "colIndex": 16,
+      "value": "27",
+      "formula": "=IF(L32=\"No\";P31+1;P31)"
+    },
+    {
+      "row": 32,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L32=\"Dudoso\";Q31+1;Q31)"
+    },
+    {
+      "row": 32,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.06896551724137931",
+      "formula": "=O32/(O32+P32+Q32)"
+    },
+    {
+      "row": 32,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9310344827586207",
+      "formula": "=P32/(O32+P32+Q32)"
+    },
+    {
+      "row": 32,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q32/(O32+P32+Q32)"
+    },
+    {
+      "row": 32,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U31+IF(L32=\"Si\";1;0)"
+    },
+    {
+      "row": 32,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R32:T32)"
+    },
+    {
+      "row": 32,
+      "column": "W",
+      "colIndex": 23,
+      "value": "29",
+      "formula": "=SUM(O32:Q32)"
+    },
+    {
+      "row": 33,
+      "column": "A",
+      "colIndex": 1,
+      "value": "No",
+      "formula": null
+    },
+    {
+      "row": 33,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.45",
+      "formula": null
+    },
+    {
+      "row": 33,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B33+C32"
+    },
+    {
+      "row": 33,
+      "column": "D",
+      "colIndex": 4,
+      "value": "0.55",
+      "formula": "=C32"
+    },
+    {
+      "row": 33,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C33-0.001"
+    },
+    {
+      "row": 33,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 33,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 33,
+      "column": "H",
+      "colIndex": 8,
+      "value": "30",
+      "formula": "=H32+1"
+    },
+    {
+      "row": 33,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 33,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I33<C3;A3;A4)"
+    },
+    {
+      "row": 33,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 33,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J33=\"Si\";IF(K33<$S$16;$A$16;IF(K33<$T$16;$A$17;$A$18));IF(K33<$S$22;$A$22;IF(K33<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 33,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L33=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 33,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L33=$A$18,IF(M33<$S$28,$A$28,IF(M33<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 33,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L33=\"Si\";O32+1;O32)"
+    },
+    {
+      "row": 33,
+      "column": "P",
+      "colIndex": 16,
+      "value": "28",
+      "formula": "=IF(L33=\"No\";P32+1;P32)"
+    },
+    {
+      "row": 33,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L33=\"Dudoso\";Q32+1;Q32)"
+    },
+    {
+      "row": 33,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.06666666666666667",
+      "formula": "=O33/(O33+P33+Q33)"
+    },
+    {
+      "row": 33,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9333333333333333",
+      "formula": "=P33/(O33+P33+Q33)"
+    },
+    {
+      "row": 33,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q33/(O33+P33+Q33)"
+    },
+    {
+      "row": 33,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U32+IF(L33=\"Si\";1;0)"
+    },
+    {
+      "row": 33,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R33:T33)"
+    },
+    {
+      "row": 33,
+      "column": "W",
+      "colIndex": 23,
+      "value": "30",
+      "formula": "=SUM(O33:Q33)"
+    },
+    {
+      "row": 34,
+      "column": "A",
+      "colIndex": 1,
+      "value": "Dudoso",
+      "formula": null
+    },
+    {
+      "row": 34,
+      "column": "B",
+      "colIndex": 2,
+      "value": "0.00",
+      "formula": null
+    },
+    {
+      "row": 34,
+      "column": "C",
+      "colIndex": 3,
+      "value": "1",
+      "formula": "=B34+C33"
+    },
+    {
+      "row": 34,
+      "column": "D",
+      "colIndex": 4,
+      "value": "1",
+      "formula": "=C33"
+    },
+    {
+      "row": 34,
+      "column": "E",
+      "colIndex": 5,
+      "value": "0.999",
+      "formula": "=C34-0.001"
+    },
+    {
+      "row": 34,
+      "column": "F",
+      "colIndex": 6,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 34,
+      "column": "G",
+      "colIndex": 7,
+      "value": null,
+      "formula": null
+    },
+    {
+      "row": 34,
+      "column": "H",
+      "colIndex": 8,
+      "value": "31",
+      "formula": "=H33+1"
+    },
+    {
+      "row": 34,
+      "column": "I",
+      "colIndex": 9,
+      "value": "0.19830588691512474",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 34,
+      "column": "J",
+      "colIndex": 10,
+      "value": "No",
+      "formula": "=IF(I34<C3;A3;A4)"
+    },
+    {
+      "row": 34,
+      "column": "K",
+      "colIndex": 11,
+      "value": "0.8524419999462557",
+      "formula": "=RAND()"
+    },
+    {
+      "row": 34,
+      "column": "L",
+      "colIndex": 12,
+      "value": "No",
+      "formula": "=IF(J34=\"Si\";IF(K34<$S$16;$A$16;IF(K34<$T$16;$A$17;$A$18));IF(K34<$S$22;$A$22;IF(K34<$T$22;$A$23;$A$24)))"
+    },
+    {
+      "row": 34,
+      "column": "M",
+      "colIndex": 13,
+      "value": null,
+      "formula": "=IF(L34=$A$18,RAND(),\"\")"
+    },
+    {
+      "row": 34,
+      "column": "N",
+      "colIndex": 14,
+      "value": null,
+      "formula": "=IF(L34=$A$18,IF(M34<$S$28,$A$28,IF(M34<$T$28,$A$29,$A$30)),\"\")"
+    },
+    {
+      "row": 34,
+      "column": "O",
+      "colIndex": 15,
+      "value": "2",
+      "formula": "=IF(L34=\"Si\";O33+1;O33)"
+    },
+    {
+      "row": 34,
+      "column": "P",
+      "colIndex": 16,
+      "value": "29",
+      "formula": "=IF(L34=\"No\";P33+1;P33)"
+    },
+    {
+      "row": 34,
+      "column": "Q",
+      "colIndex": 17,
+      "value": "0",
+      "formula": "=IF(L34=\"Dudoso\";Q33+1;Q33)"
+    },
+    {
+      "row": 34,
+      "column": "R",
+      "colIndex": 18,
+      "value": "0.06451612903225806",
+      "formula": "=O34/(O34+P34+Q34)"
+    },
+    {
+      "row": 34,
+      "column": "S",
+      "colIndex": 19,
+      "value": "0.9354838709677419",
+      "formula": "=P34/(O34+P34+Q34)"
+    },
+    {
+      "row": 34,
+      "column": "T",
+      "colIndex": 20,
+      "value": "0",
+      "formula": "=Q34/(O34+P34+Q34)"
+    },
+    {
+      "row": 34,
+      "column": "U",
+      "colIndex": 21,
+      "value": "2",
+      "formula": "=U33+IF(L34=\"Si\";1;0)"
+    },
+    {
+      "row": 34,
+      "column": "V",
+      "colIndex": 22,
+      "value": "1",
+      "formula": "=SUM(R34:T34)"
+    },
+    {
+      "row": 34,
+      "column": "W",
+      "colIndex": 23,
+      "value": "31",
+      "formula": "=SUM(O34:Q34)"
+    }
+  ]
+}
