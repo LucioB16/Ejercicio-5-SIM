@@ -1,0 +1,37 @@
+<Window x:Class="SimulacionCmiWPF.VentanaResultados"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Resultados" Height="500" Width="900" WindowStartupLocation="CenterOwner">
+  <Grid Margin="10">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <TextBlock Grid.Row="0" TextWrapping="Wrap" Margin="0,0,0,10">
+      <Run Text="Visitas necesarias (simulación): "/>
+      <Run Text="{Binding VisitaObjetivo}"/>
+      <Run Text="  |  Visitas necesarias (analítico): "/>
+      <Run Text="{Binding VisitasAnaliticas, StringFormat=F0}"/>
+      <Run Text="  |  P(Def. Sí): "/>
+      <Run Text="{Binding ProbabilidadSi, StringFormat=F4}"/>
+    </TextBlock>
+    <DataGrid Grid.Row="1" ItemsSource="{Binding Vectores}" AutoGenerateColumns="False" IsReadOnly="True">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Visita" Binding="{Binding Visita}" Width="60"/>
+        <DataGridTextColumn Header="Rnd Recuerda" Binding="{Binding RndRecuerda, StringFormat=F4}" Width="90"/>
+        <DataGridTextColumn Header="Recuerda" Binding="{Binding Recuerda}" Width="80"/>
+        <DataGridTextColumn Header="Rnd Respuesta" Binding="{Binding RndRespuesta, StringFormat=F4}" Width="90"/>
+        <DataGridTextColumn Header="Respuesta" Binding="{Binding Respuesta}" Width="120"/>
+        <DataGridTextColumn Header="Rnd Compra" Binding="{Binding RndCompra, StringFormat=F4}" Width="90"/>
+        <DataGridTextColumn Header="Compra" Binding="{Binding Compra}" Width="80"/>
+        <DataGridTextColumn Header="Acum Sí" Binding="{Binding AcumSi}" Width="80"/>
+        <DataGridTextColumn Header="Acum No" Binding="{Binding AcumNo}" Width="80"/>
+        <DataGridTextColumn Header="Acum Dudoso" Binding="{Binding AcumDudoso}" Width="100"/>
+        <DataGridTextColumn Header="P acum Sí" Binding="{Binding ProbAcumSi, StringFormat=F4}" Width="80"/>
+        <DataGridTextColumn Header="Ventas" Binding="{Binding VentasAcum}" Width="80"/>
+      </DataGrid.Columns>
+    </DataGrid>
+    <Button Grid.Row="2" Content="Ver gráficos" HorizontalAlignment="Right" Margin="0,10,0,0" Command="{Binding MostrarGraficos}"/>
+  </Grid>
+</Window>

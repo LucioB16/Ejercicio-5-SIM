@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SimulacionCmiCore\SimulacionCmiCore.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ScottPlot.WPF" Version="5.0.55" />
+    </ItemGroup>
+
+</Project>
