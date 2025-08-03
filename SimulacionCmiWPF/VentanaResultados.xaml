@@ -10,11 +10,11 @@
     </Grid.RowDefinitions>
     <TextBlock Grid.Row="0" TextWrapping="Wrap" Margin="0,0,0,10">
       <Run Text="Visitas necesarias (simulación): "/>
-      <Run Text="{Binding VisitaObjetivo}"/>
+      <Run Text="{Binding VisitaObjetivo, Mode=OneWay}"/>
       <Run Text="  |  Visitas necesarias (analítico): "/>
-      <Run Text="{Binding VisitasAnaliticas, StringFormat=F0}"/>
+      <Run Text="{Binding VisitasAnaliticas, StringFormat=F0, Mode=OneWay}"/>
       <Run Text="  |  P(Def. Sí): "/>
-      <Run Text="{Binding ProbabilidadSi, StringFormat=F4}"/>
+      <Run Text="{Binding ProbabilidadSi, StringFormat=F4, Mode=OneWay}"/>
     </TextBlock>
     <DataGrid Grid.Row="1" ItemsSource="{Binding Vectores}" AutoGenerateColumns="False" IsReadOnly="True">
       <DataGrid.Columns>
