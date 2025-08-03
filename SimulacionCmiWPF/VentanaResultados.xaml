@@ -10,7 +10,7 @@
     </Grid.RowDefinitions>
     <TextBlock Grid.Row="0" TextWrapping="Wrap" Margin="0,0,0,10">
       <Run Text="Visitas necesarias (simulación): "/>
-      <Run Text="{Binding VisitaObjetivo}"/>
+      <Run Text="{Binding VisitaObjetivo, Mode=OneWay}"/>
       <Run Text="  |  Visitas necesarias (analítico): "/>
       <Run Text="{Binding VisitasAnaliticas, StringFormat=F0}"/>
       <Run Text="  |  P(Def. Sí): "/>
