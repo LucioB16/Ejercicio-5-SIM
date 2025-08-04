@@ -31,6 +31,13 @@ public class VectorEstado
     public int VentasAcum { get; set; }
 
     /// <summary>
+    /// Índice de la visita en la que se alcanza por primera vez el objetivo
+    /// de ventas. Permanece <c>null</c> hasta que dicho objetivo es alcanzado
+    /// y luego se propaga a los siguientes vectores.
+    /// </summary>
+    public int? IndiceMetaVentas { get; init; }
+
+    /// <summary>
     /// Crea una copia superficial del vector.
     /// </summary>
     public VectorEstado Clonar() => (VectorEstado)MemberwiseClone();
