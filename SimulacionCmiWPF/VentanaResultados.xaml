@@ -36,6 +36,7 @@
             <DataGridTextColumn Header="Acum Dudoso" Binding="{Binding AcumDudoso}" Width="100"/>
             <DataGridTextColumn Header="P acum Sí" Binding="{Binding ProbAcumSi, StringFormat=F4}" Width="80"/>
             <DataGridTextColumn Header="Ventas" Binding="{Binding VentasAcum}" Width="80"/>
+            <DataGridTextColumn Header="Índice meta" Binding="{Binding IndiceMetaVentas}" Width="100" IsReadOnly="True"/>
           </DataGrid.Columns>
         </DataGrid>
       </GroupBox>
@@ -54,6 +55,7 @@
             <DataGridTextColumn Header="Acum Dudoso" Binding="{Binding AcumDudoso}" Width="100"/>
             <DataGridTextColumn Header="P acum Sí" Binding="{Binding ProbAcumSi, StringFormat=F4}" Width="80"/>
             <DataGridTextColumn Header="Ventas" Binding="{Binding VentasAcum}" Width="80"/>
+            <DataGridTextColumn Header="Índice meta" Binding="{Binding IndiceMetaVentas}" Width="100" IsReadOnly="True"/>
           </DataGrid.Columns>
         </DataGrid>
       </GroupBox>

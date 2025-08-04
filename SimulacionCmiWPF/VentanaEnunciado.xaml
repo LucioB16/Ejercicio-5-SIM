@@ -15,50 +15,90 @@
       </TextBlock>
 
       <TextBlock Text="Probabilidades a priori" FontWeight="Bold" Margin="0,12,0,4"/>
-      <Grid Margin="0,0,0,8">
-        <Grid.ColumnDefinitions>
-          <ColumnDefinition/>
-          <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-          <RowDefinition/>
-          <RowDefinition/>
-          <RowDefinition/>
-        </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" FontWeight="Bold">Evento</TextBlock>
-        <TextBlock Grid.Row="0" Grid.Column="1" FontWeight="Bold" TextAlignment="Right">Probabilidad</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="0">El individuo recordaba el mensaje</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="1" TextAlignment="Right">0,35</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="0">El individuo no podía recordar el mensaje</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="1" TextAlignment="Right">0,65</TextBlock>
-      </Grid>
+      <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,8">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+          </Grid.RowDefinitions>
+          <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock FontWeight="Bold" Padding="4">Evento</TextBlock>
+          </Border>
+          <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,0,1">
+            <TextBlock FontWeight="Bold" TextAlignment="Right" Padding="4">Probabilidad</TextBlock>
+          </Border>
+          <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock Padding="4">El individuo recordaba el mensaje</TextBlock>
+          </Border>
+          <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,0,1">
+            <TextBlock TextAlignment="Right" Padding="4">0,35</TextBlock>
+          </Border>
+          <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
+            <TextBlock Padding="4">El individuo no podía recordar el mensaje</TextBlock>
+          </Border>
+          <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,0,0">
+            <TextBlock TextAlignment="Right" Padding="4">0,65</TextBlock>
+          </Border>
+        </Grid>
+      </Border>
 
       <TextBlock Text="Probabilidades condicionales" FontWeight="Bold" Margin="0,12,0,4"/>
-      <Grid>
-        <Grid.ColumnDefinitions>
-          <ColumnDefinition/>
-          <ColumnDefinition Width="Auto"/>
-          <ColumnDefinition Width="Auto"/>
-          <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-          <RowDefinition/>
-          <RowDefinition/>
-          <RowDefinition/>
-        </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" FontWeight="Bold">Evento</TextBlock>
-        <TextBlock Grid.Row="0" Grid.Column="1" FontWeight="Bold" TextAlignment="Right">Def. No</TextBlock>
-        <TextBlock Grid.Row="0" Grid.Column="2" FontWeight="Bold" TextAlignment="Right">Dudoso</TextBlock>
-        <TextBlock Grid.Row="0" Grid.Column="3" FontWeight="Bold" TextAlignment="Right">Def. Sí</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="0">Podía recordar el mensaje</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="1" TextAlignment="Right">0,55</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="2" TextAlignment="Right">0,15</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="3" TextAlignment="Right">0,30</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="0">No podía recordar el mensaje</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="1" TextAlignment="Right">0,70</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="2" TextAlignment="Right">0,25</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="3" TextAlignment="Right">0,05</TextBlock>
-      </Grid>
+      <Border BorderBrush="Black" BorderThickness="1">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+          </Grid.RowDefinitions>
+          <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock FontWeight="Bold" Padding="4">Evento</TextBlock>
+          </Border>
+          <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock FontWeight="Bold" TextAlignment="Right" Padding="4">Def. No</TextBlock>
+          </Border>
+          <Border Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock FontWeight="Bold" TextAlignment="Right" Padding="4">Dudoso</TextBlock>
+          </Border>
+          <Border Grid.Row="0" Grid.Column="3" BorderBrush="Black" BorderThickness="0,0,0,1">
+            <TextBlock FontWeight="Bold" TextAlignment="Right" Padding="4">Def. Sí</TextBlock>
+          </Border>
+          <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock Padding="4">Podía recordar el mensaje</TextBlock>
+          </Border>
+          <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock TextAlignment="Right" Padding="4">0,55</TextBlock>
+          </Border>
+          <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="0,0,1,1">
+            <TextBlock TextAlignment="Right" Padding="4">0,15</TextBlock>
+          </Border>
+          <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="0,0,0,1">
+            <TextBlock TextAlignment="Right" Padding="4">0,30</TextBlock>
+          </Border>
+          <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0">
+            <TextBlock Padding="4">No podía recordar el mensaje</TextBlock>
+          </Border>
+          <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,0">
+            <TextBlock TextAlignment="Right" Padding="4">0,70</TextBlock>
+          </Border>
+          <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="0,0,1,0">
+            <TextBlock TextAlignment="Right" Padding="4">0,25</TextBlock>
+          </Border>
+          <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="0,0,0,0">
+            <TextBlock TextAlignment="Right" Padding="4">0,05</TextBlock>
+          </Border>
+        </Grid>
+      </Border>
     </StackPanel>
   </ScrollViewer>
 </Window>
