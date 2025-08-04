@@ -1,7 +1,7 @@
 <Window x:Class="SimulacionCmiWPF.VentanaResultados"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Resultados" Height="500" Width="1100" WindowStartupLocation="CenterOwner">
+        Title="Resultados" Height="500" Width="1205" WindowStartupLocation="CenterOwner">
   <Grid Margin="10">
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto"/>
