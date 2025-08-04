@@ -4,6 +4,22 @@ Este proyecto contiene una simulación del problema de la empresa **CMI Corporat
 La aplicación WPF permite configurar las probabilidades, ejecutar la simulación y
 visualizar tablas y gráficos con los resultados.
 
+## Parámetros de entrada
+
+En la ventana principal se deben ingresar los siguientes valores:
+
+| Parámetro | Rango válido |
+| --- | --- |
+| Visitas a simular | 10 &le; valor &le; 2 147 483 647 |
+| Desde visita | 1 &le; valor &le; Hasta visita |
+| Hasta visita | valor &le; Visitas a simular y (Hasta − Desde) &le; 10 000 |
+| Semilla RNG | vacío para aleatoria, o cualquier entero de 32 bits |
+| P(Recuerda) | 0 < valor < 1 |
+| P(Compra | Dudoso) | 0 < valor < 1 |
+| Ventas objetivo | 0 < valor < 2 147 483 647 |
+| Tabla "Recuerda" | tres columnas, cada celda 0 < x < 1, suma de la fila = 1 |
+| Tabla "No recuerda" | mismas reglas que la tabla "Recuerda" |
+
 ## Enunciado
 
 CMI Corporation llevó a cabo una prueba para evaluar la efectividad de un nuevo anuncio por televisión para uno de sus productos domésticos. El anuncio se mostró en un mercado de prueba durante dos semanas. En el estudio de seguimiento se contactó telefónicamente con una selección aleatoria de personas y se les hizo una serie de preguntas sobre la posible compra del producto.

@@ -28,10 +28,12 @@
           <ColumnDefinition Width="60"/>
           <ColumnDefinition Width="Auto"/>
           <ColumnDefinition Width="80"/>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="80"/>
         </Grid.ColumnDefinitions>
 
         <TextBlock Text="Visitas:" VerticalAlignment="Center"/>
-        <TextBox Grid.Column="1" Width="80" Margin="5,0" Text="{Binding Visitas}"/>
+        <TextBox Grid.Column="1" Width="80" Margin="5,0" Text="{Binding VisitasASimular}"/>
 
         <TextBlock Grid.Column="2" Text="Desde:" VerticalAlignment="Center" Margin="10,0,0,0"/>
         <TextBox Grid.Column="3" Width="60" Margin="5,0" Text="{Binding DesdeVisita}"/>
@@ -47,6 +49,9 @@
 
         <TextBlock Grid.Column="10" Text="Ventas objetivo:" VerticalAlignment="Center" Margin="10,0,0,0"/>
         <xctk:IntegerUpDown Grid.Column="11" Width="80" Margin="5,0" Minimum="1" Value="{Binding VentasObjetivo}"/>
+
+        <TextBlock Grid.Column="12" Text="Semilla RNG:" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        <xctk:IntegerUpDown Grid.Column="13" Width="80" Margin="5,0" Value="{Binding SemillaRng}"/>
       </Grid>
     </DockPanel>
 
