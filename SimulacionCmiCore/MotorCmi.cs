@@ -41,7 +41,6 @@ public class MotorCmi
         var resultados = new List<VectorEstado>();
         VectorEstado? anterior = null;
         VectorEstado? actual = null;
-        int? visitaObjetivo = null;
 
         for (int i = 1; i <= visitas; i++)
         {
@@ -76,6 +75,10 @@ public class MotorCmi
             int acumDudoso = (anterior?.AcumDudoso ?? 0) + (respuesta == "Dudoso" ? 1 : 0);
             int ventas = (anterior?.VentasAcum ?? 0) + (compra ? 1 : 0);
 
+            int? indiceMeta = anterior?.IndiceMetaVentas;
+            if (indiceMeta is null && ventas >= _ventasObjetivo)
+                indiceMeta = i;
+
             actual = new VectorEstado
             {
                 Visita = i,
@@ -89,14 +92,12 @@ public class MotorCmi
                 AcumNo = acumNo,
                 AcumDudoso = acumDudoso,
                 ProbAcumSi = (double)acumSi / i,
-                VentasAcum = ventas
+                VentasAcum = ventas,
+                IndiceMetaVentas = indiceMeta
             };
 
             if (i >= desde && i <= hasta)
                 resultados.Add(actual.Clonar());
-
-            if (visitaObjetivo is null && ventas >= _ventasObjetivo)
-                visitaObjetivo = i;
 
             anterior = actual;
         }
@@ -105,7 +106,7 @@ public class MotorCmi
         VectorEstado ultimo = actual!;
         double probSi = (double)ultimo.AcumSi / ultimo.Visita;
         int ventasTotales = ultimo.VentasAcum;
-        return (resultados, ultimo, probSi, ventasTotales, visitaObjetivo);
+        return (resultados, ultimo, probSi, ventasTotales, ultimo.IndiceMetaVentas);
     }
 
     /// <summary>
