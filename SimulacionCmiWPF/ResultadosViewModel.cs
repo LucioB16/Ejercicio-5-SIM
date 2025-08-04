@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
@@ -13,6 +14,12 @@ public class ResultadosViewModel
 {
     public IList<VectorEstado> Vectores { get; }
     public VectorEstado Ultimo { get; }
+
+    // NUEVO: envoltorio enumerable para el DataGrid
+    public IEnumerable<VectorEstado> UltimaFila =>
+        Ultimo is null ? Array.Empty<VectorEstado>()
+                       : new[] { Ultimo };
+
     public double ProbabilidadSi { get; }
     public int VentasTotales { get; }
     public int? VisitaObjetivo { get; }
