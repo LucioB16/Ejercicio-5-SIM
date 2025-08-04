@@ -79,7 +79,7 @@ public class MainViewModel : INotifyPropertyChanged
 
     public MainViewModel()
     {
-        EjecutarSimulacion = new RelayCommand(_ => Simular(), _ => Validar(out _));
+        EjecutarSimulacion = new RelayCommand(_ => Simular());
         MostrarEnunciado = new RelayCommand(_ => MostrarReadme());
     }
 
@@ -134,8 +134,6 @@ public class MainViewModel : INotifyPropertyChanged
             errores.Add("La probabilidad de compra para dudosos debe estar entre 0 y 1.");
         if (VentasObjetivo <= 0)
             errores.Add("Las ventas objetivo deben ser mayores que 0.");
-        if (SemillaRng is < int.MinValue or > int.MaxValue)
-            errores.Add("La semilla RNG debe estar dentro del rango de 32 bits.");
         if (!ValidarFila(TablaRecuerda[0], out string errRec))
             errores.Add($"Tabla 'Recuerda': {errRec}");
         if (!ValidarFila(TablaNoRecuerda[0], out string errNoRec))
