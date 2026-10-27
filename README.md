@@ -1,8 +1,22 @@
 # Simulación CMI
 
-Este proyecto contiene una simulación del problema de la empresa **CMI Corporation** usando C# 12 y .NET 8.
-La aplicación WPF permite configurar las probabilidades, ejecutar la simulación y
-visualizar tablas y gráficos con los resultados.
+**De probabilidades de comportamiento a resultados observables en una simulación de escritorio.**
+
+Aplicación académica en **C# 12, .NET 8 y WPF** para el caso de CMI Corporation. Permite configurar probabilidades, simular visitas y analizar los resultados en tablas y gráficos.
+
+| Configurá | Ejecutá | Analizá |
+| :-- | :-- | :-- |
+| Probabilidades, semilla y rango de visitas. | Motor de simulación separado de la interfaz WPF. | Vector de estado, resultados y gráficos. |
+
+## Compilación y pruebas
+
+```bash
+# compilar la biblioteca principal
+DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet build SimulacionCmiCore/SimulacionCmiCore.csproj
+
+# ejecutar las pruebas unitarias
+DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet test SimulacionCmiCore.Tests/SimulacionCmiCore.Tests.csproj
+```
 
 ## Parámetros de entrada
 
@@ -48,16 +62,6 @@ Los objetivos del estudio son:
 - `SimulacionCmi` – proyecto WPF (no se construye en Linux).
 - `SimulacionCmiCore` – biblioteca con el motor de simulación.
 - `SimulacionCmiCore.Tests` – pruebas unitarias xUnit.
-
-## Compilación y pruebas
-
-```bash
-# compilar la biblioteca principal
-DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet build SimulacionCmiCore/SimulacionCmiCore.csproj
-
-# ejecutar las pruebas unitarias
-DOTNET_CLI_TELEMETRY_OPTOUT=1 dotnet test SimulacionCmiCore.Tests/SimulacionCmiCore.Tests.csproj
-```
 
 ## Licencia
 
